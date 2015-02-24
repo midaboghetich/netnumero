@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/numhero/!svn/ver/742/src/com/numhero/server/model/dao
+END
+ProjectTaskDetailDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/numhero/!svn/ver/601/src/com/numhero/server/model/dao/ProjectTaskDetailDao.java
+END
+ProjectStaffDetailDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/numhero/!svn/ver/601/src/com/numhero/server/model/dao/ProjectStaffDetailDao.java
+END
+UserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/numhero/!svn/ver/653/src/com/numhero/server/model/dao/UserDao.java
+END
+InvoiceDetailDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/numhero/!svn/ver/176/src/com/numhero/server/model/dao/InvoiceDetailDao.java
+END
+ProductDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/numhero/!svn/ver/570/src/com/numhero/server/model/dao/ProductDao.java
+END
+TimeEntryDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/numhero/!svn/ver/570/src/com/numhero/server/model/dao/TimeEntryDao.java
+END
+SessionDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/numhero/!svn/ver/657/src/com/numhero/server/model/dao/SessionDao.java
+END
+BaseSearchableDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/numhero/!svn/ver/742/src/com/numhero/server/model/dao/BaseSearchableDao.java
+END
+BankAccountDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/numhero/!svn/ver/597/src/com/numhero/server/model/dao/BankAccountDao.java
+END
+InvoiceDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/numhero/!svn/ver/601/src/com/numhero/server/model/dao/InvoiceDao.java
+END
+ClientSupplierDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/numhero/!svn/ver/709/src/com/numhero/server/model/dao/ClientSupplierDao.java
+END
+TaskDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/numhero/!svn/ver/514/src/com/numhero/server/model/dao/TaskDao.java
+END
+StaffDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/numhero/!svn/ver/571/src/com/numhero/server/model/dao/StaffDao.java
+END
+ProjectDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/numhero/!svn/ver/525/src/com/numhero/server/model/dao/ProjectDao.java
+END
+TaxInfoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/numhero/!svn/ver/420/src/com/numhero/server/model/dao/TaxInfoDao.java
+END
+BusinessAccountDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/numhero/!svn/ver/570/src/com/numhero/server/model/dao/BusinessAccountDao.java
+END
+TaskStaffDetailDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/numhero/!svn/ver/601/src/com/numhero/server/model/dao/TaskStaffDetailDao.java
+END
+BaseDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/numhero/!svn/ver/742/src/com/numhero/server/model/dao/BaseDao.java
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/numhero/!svn/ver/742/src/com/numhero/client/model/datacargo/invoice
+END
+InvoiceListRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/numhero/!svn/ver/585/src/com/numhero/client/model/datacargo/invoice/InvoiceListRequest.java
+END
+ChangeStatusToOverdueDocumentsRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/numhero/!svn/ver/742/src/com/numhero/client/model/datacargo/invoice/ChangeStatusToOverdueDocumentsRequest.java
+END
+ChangeStatusToSentDocumentsRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/numhero/!svn/ver/742/src/com/numhero/client/model/datacargo/invoice/ChangeStatusToSentDocumentsRequest.java
+END
+SaveInvoiceRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/numhero/!svn/ver/632/src/com/numhero/client/model/datacargo/invoice/SaveInvoiceRequest.java
+END
+GetInvoiceRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/numhero/!svn/ver/607/src/com/numhero/client/model/datacargo/invoice/GetInvoiceRequest.java
+END
+InvoiceListResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/numhero/!svn/ver/549/src/com/numhero/client/model/datacargo/invoice/InvoiceListResponse.java
+END
+ConvertToInvoiceRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/numhero/!svn/ver/702/src/com/numhero/client/model/datacargo/invoice/ConvertToInvoiceRequest.java
+END
+SaveInvoiceResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/numhero/!svn/ver/680/src/com/numhero/client/model/datacargo/invoice/SaveInvoiceResponse.java
+END
+ChangeStatusToPaiedDocumentsRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/numhero/!svn/ver/702/src/com/numhero/client/model/datacargo/invoice/ChangeStatusToPaiedDocumentsRequest.java
+END
+GetInvoiceResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/numhero/!svn/ver/620/src/com/numhero/client/model/datacargo/invoice/GetInvoiceResponse.java
+END
+ArchiveDocumentsRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/numhero/!svn/ver/702/src/com/numhero/client/model/datacargo/invoice/ArchiveDocumentsRequest.java
+END
+DeleteDocumentsRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/numhero/!svn/ver/702/src/com/numhero/client/model/datacargo/invoice/DeleteDocumentsRequest.java
+END

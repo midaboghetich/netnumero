@@ -1,0 +1,3 @@
+# Module application
+# RPC service class, partial path of RPC policy file
+com.numhero.client.service.DataService, D3BAEB2912EA73C045B589B2F41A19DA.gwt.rpc

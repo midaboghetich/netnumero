@@ -1,0 +1,166 @@
+package com.numhero.server.service;
+
+import com.numhero.client.util.ClientUtils;
+import com.numhero.server.NumheroUtils;
+import com.numhero.server.auth.OneWayEncryptionService;
+import com.numhero.server.model.dao.BusinessAccountDao;
+import com.numhero.server.model.dao.SessionDao;
+import com.numhero.server.model.dao.UserDao;
+import com.numhero.server.model.pojo.BusinessAccount;
+import com.numhero.server.model.pojo.Session;
+import com.numhero.server.model.pojo.User;
+import com.numhero.shared.enums.UserRoleEnum;
+import com.numhero.shared.util.Constants;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+public class CompanyServlet extends HttpServlet {
+	private static final long		serialVersionUID	= -4549098676007117162L;
+
+	private OneWayEncryptionService	encryptionService;
+	private UserDao					userDao;
+	private BusinessAccountDao		baDao;
+	private SessionDao				sessionDao;
+
+	public CompanyServlet() {
+		baDao = NumheroUtils.injector.getInstance(BusinessAccountDao.class);
+		userDao = NumheroUtils.injector.getInstance(UserDao.class);
+		encryptionService = NumheroUtils.injector.getInstance(OneWayEncryptionService.class);
+		sessionDao = NumheroUtils.injector.getInstance(SessionDao.class);
+	}
+
+	private static Log	log	= LogFactory.getLog(CompanyServlet.class);
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		log.info("received unexpected Post " + request.getRequestURI());
+		response.sendError(404);
+	}
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		log.info("received get " + request.getRequestURI());
+
+		response.setContentType("text/html");
+
+		PrintWriter out = response.getWriter();
+
+		String html;
+
+		String baId = ClientUtils.getCompanyNameFromUri(request.getRequestURI());
+
+		String sessionId = createSessionIfNotPresent(response, baId); //TODO remove in prod
+		log.info("created cookie for sessionId " + sessionId);
+		
+		if (isValidCompany( baId)) {
+			html = startUpHtml();
+		} else {
+			html = errorPageHtml();
+		}
+
+		out.println(html);
+		log.info("finish serving get " + request.getRequestURI());
+
+	}
+
+	private boolean isValidCompany( String baId) {
+		log.debug("businessId:" + baId);
+
+		if (baId != null) {
+			BusinessAccount ba = baDao.getByName(baId);
+
+			if (ba != null )
+				return true;
+			else
+				return false;
+		} else
+			return false;
+
+	}
+
+	private String createSessionIfNotPresent(HttpServletResponse response, String businessAccountId) {
+		// TODO remove from prod
+		String httpSessionID = NumheroUtils.createRandomSessionId();
+
+		BusinessAccount ba = getOrCreateBusinessAccount(businessAccountId);
+		User user = getOrCreateUser("666", "user@netnumero.com", "user", ba);
+		createDummySession(user, httpSessionID);
+		Cookie sessionCookie = createCookie(httpSessionID);
+
+		response.addCookie(sessionCookie);
+		return httpSessionID;
+	}
+
+    //TODO remove it
+    private Cookie createCookie(String httpSessionID) {
+		Cookie sessionCookie = new Cookie(Constants.SESSION_COOKIE_NAME, httpSessionID);
+		sessionCookie.setMaxAge(30 * 60); // half an hour
+		sessionCookie.setPath("/");
+		return sessionCookie;
+	}
+
+
+    private BusinessAccount getOrCreateBusinessAccount(String baId) {
+		BusinessAccount ba = baDao.getByName(baId);
+		if (ba == null) {
+			ba = new BusinessAccount();
+			ba.setName(baId);
+
+			baDao.save(ba);
+		}
+		return ba;
+
+	}
+
+	private void createDummySession(User user, String httpSessionID) {
+		Session session = new Session(user.getId(), httpSessionID);
+		sessionDao.save(session);
+	}
+
+	private User getOrCreateUser(String pUId, String email, String fistName, BusinessAccount ba) {
+		User user = userDao.findByPortalUserId(pUId);
+		if (user == null) {
+			user = new User();
+			user.setFirstName(fistName);
+            user.setEmail(email);
+			user.setBusinessAccountId(ba.getId());
+			user.addRelationToBa(ba.getId(), UserRoleEnum.free);
+			userDao.save(user);
+		}
+
+		return user;
+	}
+
+	private String errorPageHtml() {
+		return "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n" + "<html>\n" + "  <body>\n" + "    <h2>Authentication error</h2>" + "  </body>\n" + "</html>";
+	}
+
+	private String startUpHtml() {
+		return "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n"
+				+ "<html>\n"
+				+ "  <head>\n"
+				+ "    <meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n"
+				+ "\n"
+				+ "    <meta name=\"gwt:property\" content=\"locale=en\">\n"
+				+ "\n"
+				+ "    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/>\n"
+				+ "\t<link rel=\"stylesheet\" href=\"../../c/netnumero.css\" type=\"text/css\" media=\"screen\" title=\"Default Style\" charset=\"utf-8\" />\n"
+				+ "    <title>NetNumero</title>\n"
+				+ "    <script type=\"text/javascript\" language=\"javascript\" src=\"../../application/application.nocache.js\"></script>\n"
+				+ "  </head>\n"
+				+ "\n"
+				+ "  <body>\n"
+				+ "    <iframe src=\"javascript:''\" id=\"__gwt_historyFrame\" tabIndex='-1' style=\"position:absolute;width:0;height:0;border:0\"></iframe>\n"
+				+ "    \n"
+				+ "    <noscript>\n"
+				+ "      <div style=\"width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif\">\n"
+				+ "        Your web browser must have JavaScript enabled\n" + "        in order for this application to display correctly.\n" + "      </div>\n" + "    </noscript>\n" + "\n"
+				+ "    <div id=\"bgk-wrapper\"><div id=\"wrapper\"></div></div>\n" + "  </body>\n" + "</html>";
+	}
+}

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/numhero/!svn/ver/456/lib/appengine-java-sdk-1.3.4/bin
+END
+appcfg.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/numhero/!svn/ver/456/lib/appengine-java-sdk-1.3.4/bin/appcfg.cmd
+END
+dev_appserver.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/numhero/!svn/ver/456/lib/appengine-java-sdk-1.3.4/bin/dev_appserver.cmd
+END
+appcfg.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/numhero/!svn/ver/456/lib/appengine-java-sdk-1.3.4/bin/appcfg.sh
+END
+dev_appserver.sh
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/numhero/!svn/ver/456/lib/appengine-java-sdk-1.3.4/bin/dev_appserver.sh
+END

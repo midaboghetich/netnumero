@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/numhero/!svn/ver/698/src/com/numhero/client/model/datacargo/bankaccount
+END
+SaveBankAccountRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/numhero/!svn/ver/667/src/com/numhero/client/model/datacargo/bankaccount/SaveBankAccountRequest.java
+END
+GetBankAccountRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/numhero/!svn/ver/626/src/com/numhero/client/model/datacargo/bankaccount/GetBankAccountRequest.java
+END
+BankAccountListResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/numhero/!svn/ver/597/src/com/numhero/client/model/datacargo/bankaccount/BankAccountListResponse.java
+END
+SaveBankAccountResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/numhero/!svn/ver/692/src/com/numhero/client/model/datacargo/bankaccount/SaveBankAccountResponse.java
+END
+GetBankAccountResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/numhero/!svn/ver/620/src/com/numhero/client/model/datacargo/bankaccount/GetBankAccountResponse.java
+END
+DeleteBankAccountsRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/numhero/!svn/ver/698/src/com/numhero/client/model/datacargo/bankaccount/DeleteBankAccountsRequest.java
+END
+BankAccountListRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/numhero/!svn/ver/605/src/com/numhero/client/model/datacargo/bankaccount/BankAccountListRequest.java
+END

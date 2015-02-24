@@ -1,0 +1,160 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder
+        xmlns:ui="urn:ui:com.google.gwt.uibinder"
+        xmlns:gwtdate="com.google.gwt.user.datepicker.client"
+        xmlns:nhw="urn:import:com.numhero.client.widget"
+        xmlns:nhiw="urn:import:com.numhero.client.mvp.task"
+        xmlns:nhcsw="urn:import:com.numhero.client.mvp.clientsupplier"
+        xmlns:gwt="urn:import:com.google.gwt.user.client.ui" ui:defaultLocale="en"
+        ui:generateKeys="com.google.gwt.i18n.rebind.keygen.MD5KeyGenerator"
+        ui:generateFormat="com.google.gwt.i18n.rebind.format.PropertiesFormat"
+        ui:generateFilename="TaskPanel" ui:generateLocales="default">
+
+
+    <gwt:VerticalPanel>
+
+        <nhw:TitleLevelOne ui:field="hdTitle"/>
+
+        <gwt:DisclosurePanel ui:field="errorsPanel" styleName="validation-advice" width="100%">
+            <gwt:header>Errors</gwt:header>
+        </gwt:DisclosurePanel>
+
+        <gwt:HTMLPanel>
+            <table class="formContainer" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+
+                    <tr>
+                        <td class="formItem">
+                            <nhw:FormItem>
+                                <gwt:Label>
+                                    <ui:msg key="task.name">Name</ui:msg>
+                                </gwt:Label>
+                                <gwt:TextBox ui:field="name"/>
+                            </nhw:FormItem>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="formItem">
+                            <nhw:FormItem>
+                                <gwt:Label>
+                                    <ui:msg key="task.description">Description</ui:msg>
+                                </gwt:Label>
+                                <gwt:TextBox ui:field="description"/>
+                            </nhw:FormItem>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="formItem">
+                            <nhw:FormItem titleWidth="120">
+                                <gwt:Label>
+                                    <ui:msg key="invoice.client.supplier">Client</ui:msg>
+                                </gwt:Label>
+                                <nhcsw:ClientSelect ui:field="sbClient"/>
+                            </nhw:FormItem>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="formItem">
+                            <nhw:FormItem>
+                                <gwt:Label>
+                                    <ui:msg key="task.created">Created</ui:msg>
+                                </gwt:Label>
+                                <nhw:CustomFormatDateBox ui:field="created"/>
+                            </nhw:FormItem>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="formItem">
+                            <nhw:FormItem>
+                                <gwt:Label>
+                                    <ui:msg key="task.rate">Rate</ui:msg>
+                                </gwt:Label>
+                                <gwt:TextBox ui:field="rate"/>
+                            </nhw:FormItem>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="formItem">
+                            <nhw:FormItem>
+                                <gwt:Label>
+                                    <ui:msg key="task.billable">Billable</ui:msg>
+                                </gwt:Label>
+                                <gwt:CheckBox ui:field="billable"/>
+                            </nhw:FormItem>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="formItem">
+                            <nhw:FormItem>
+                                <gwt:Label>
+                                    <ui:msg key="task.timeunit">Time Unit</ui:msg>
+                                </gwt:Label>
+                                <gwt:TextBox ui:field="timeUnit"/>
+                            </nhw:FormItem>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="formItem">
+                            <nhw:FormItem>
+                                <gwt:Label>
+                                    <ui:msg key="task.timeentryunit">Time Entry Unit</ui:msg>
+                                </gwt:Label>
+                                <gwt:ListBox ui:field="timeEntryUnit"/>
+                            </nhw:FormItem>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="formItem">
+                            <nhw:FormItem>
+                                <gwt:Label>
+                                    <ui:msg key="task.state">State</ui:msg>
+                                </gwt:Label>
+                                <gwt:ListBox ui:field="state"/>
+                            </nhw:FormItem>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="formItem">
+                            <nhiw:TaskStaffDetailsTable cellPadding="0" cellSpacing="0"
+                                                        styleName="invoiceDetails inh-standard"
+                                                        ui:field="taskStaffDetailsTable"/>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="height:54px;">
+
+                            <nhw:NetNumeroButton ui:field="btAddStaff">
+                                <ui:msg key="task.add.staff">Add Staff</ui:msg>
+                            </nhw:NetNumeroButton>
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </gwt:HTMLPanel>
+
+        <gwt:HorizontalPanel styleName="buttonsPanel">
+
+            <nhw:NetNumeroButton ui:field='btSave'>
+                <ui:msg key="task.save">Save</ui:msg>
+            </nhw:NetNumeroButton>
+
+            <nhw:NetNumeroButton styleName="inh-button" href="javascript:;" ui:field="btCancel">
+                <ui:msg key="task.cancel">Cancel</ui:msg>
+            </nhw:NetNumeroButton>
+
+        </gwt:HorizontalPanel>
+
+    </gwt:VerticalPanel>
+
+</ui:UiBinder>

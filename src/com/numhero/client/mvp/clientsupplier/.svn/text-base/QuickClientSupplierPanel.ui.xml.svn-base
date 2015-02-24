@@ -1,0 +1,59 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:nhw="urn:import:com.numhero.client.widget" xmlns:gwt="urn:import:com.google.gwt.user.client.ui"
+             ui:defaultLocale="en" ui:generateKeys="com.google.gwt.i18n.rebind.keygen.MD5KeyGenerator"
+             ui:generateFormat="com.google.gwt.i18n.rebind.format.PropertiesFormat"
+             ui:generateFilename="ClientSupplier" ui:generateLocales="default">
+
+    <gwt:HTMLPanel styleName="formContainer">
+
+        <gwt:DisclosurePanel ui:field="errorsPanel" styleName="validation-advice" width="100%">
+            <gwt:header>Errors</gwt:header>
+        </gwt:DisclosurePanel>
+
+        <gwt:HTMLPanel>
+            <table class="formContainer" cellpadding="0" cellspacing="0">
+                <thead>
+                    <tr>
+                        <td>
+                            <ui:msg key="client.supplier.organisational.details">Organisational Details</ui:msg>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="formItem">
+                            <strong>
+                                <nhw:FormItem titleWidth="200">
+                                    <gwt:Label>
+                                        <ui:msg key="client.supplier.organisation.name">Organisation name</ui:msg>
+                                    </gwt:Label>
+                                    <gwt:TextBox ui:field="name"/>
+                                </nhw:FormItem>
+                            </strong>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </gwt:HTMLPanel>
+
+        <gwt:HTMLPanel>
+            <gwt:HorizontalPanel styleName="buttonsPanel">
+
+                <nhw:NetNumeroButton styleName="inh-button"
+                                     href="javascript:;" ui:field="btSave">
+                    <ui:msg key="client.supplier.save">Save</ui:msg>
+                </nhw:NetNumeroButton>
+
+                <nhw:NetNumeroButton styleName="inh-button"
+                                     href="javascript:;" ui:field="btCancel">
+                    <ui:msg key="client.supplier.cancel">Cancel</ui:msg>
+                </nhw:NetNumeroButton>
+
+            </gwt:HorizontalPanel>
+        </gwt:HTMLPanel>
+
+
+    </gwt:HTMLPanel>
+
+</ui:UiBinder>

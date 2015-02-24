@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/numhero/!svn/ver/698/src/com/numhero/client/model/datacargo/user
+END
+ReactivateUsersRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/numhero/!svn/ver/698/src/com/numhero/client/model/datacargo/user/ReactivateUsersRequest.java
+END
+UserListRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/numhero/!svn/ver/512/src/com/numhero/client/model/datacargo/user/UserListRequest.java
+END
+SaveUserRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/numhero/!svn/ver/667/src/com/numhero/client/model/datacargo/user/SaveUserRequest.java
+END
+GetUserRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/numhero/!svn/ver/607/src/com/numhero/client/model/datacargo/user/GetUserRequest.java
+END
+UserListResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/numhero/!svn/ver/696/src/com/numhero/client/model/datacargo/user/UserListResponse.java
+END
+SaveUserResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/numhero/!svn/ver/680/src/com/numhero/client/model/datacargo/user/SaveUserResponse.java
+END
+SuspendUsersRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/numhero/!svn/ver/698/src/com/numhero/client/model/datacargo/user/SuspendUsersRequest.java
+END
+GetUserResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/numhero/!svn/ver/620/src/com/numhero/client/model/datacargo/user/GetUserResponse.java
+END
+DeleteUsersRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/numhero/!svn/ver/698/src/com/numhero/client/model/datacargo/user/DeleteUsersRequest.java
+END

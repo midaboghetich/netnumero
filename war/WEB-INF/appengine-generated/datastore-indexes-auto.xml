@@ -1,0 +1,17 @@
+<!-- Indices written at Wed, 30 Jun 2010 21:11:46 UTC -->
+
+<datastore-indexes>
+
+    <!-- Used 4 times in query history -->
+    <datastore-index kind="ClientSupplierContact" ancestor="true" source="auto">
+        <property name="contacts_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="ClientSupplier" ancestor="false" source="auto">
+        <property name="businessAccountId" direction="asc"/>
+        <property name="partnerType" direction="asc"/>
+        <property name="lowerCaseForByStartsWithSearch" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>

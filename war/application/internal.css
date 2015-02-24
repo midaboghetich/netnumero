@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 12px;
+	background: #ffffff;
+}
+
+.gwt-TextBox {
+	color: #000000;
+    border:#cccccc 1px solid;
+	font-family: "CalibriRegular", sans-serif;
+    font-size: 16px;
+    background-color: #fa;
+}
+
+/*
+====================================================
+	DIALOG BOX
+====================================================
+*/
+
+/*.gwt-DialogBox {
+  background: #fff url(images/vborder.png) repeat-y -2px 0px;
+}
+
+*/
+
+.gwt-DialogBox .Caption {
+  background: #a1b0ce url(images/hborder.png) repeat-x 0px -2034px;
+  padding: 4px 4px 4px 8px;
+  cursor: default;
+  border-bottom: 1px solid #bbbbbb;
+  border-top: 1px solid #a1b0ce;
+}
+.gwt-DialogBox .dialogContent {
+}
+.gwt-DialogBox .dialogMiddleCenter {
+  padding: 3px;
+  background: white;
+}
+html>body .gwt-DialogBox .dialogBottomCenter {
+  background: url(images/hborder.png) repeat-x 0px -3px;
+}
+* html .gwt-DialogBox .dialogBottomCenter {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/mytheme/images/ie6/hborder_blue_shadow.png',sizingMethod='scale');
+}
+.gwt-DialogBox .dialogMiddleLeft {
+  background: #fff url(images/vborder.png) repeat-y;
+}
+html>body .gwt-DialogBox .dialogMiddleRight {
+  background: #fff url(images/vborder.png) repeat-y -2px 0px;
+}
+* html .gwt-DialogBox .dialogMiddleRight {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/mytheme/images/ie6/vborder_blue_shadow.png',sizingMethod='scale');
+}
+.gwt-DialogBox .dialogTopLeftInner {
+  width: 5px;
+  zoom: 1;
+ border-bottom: 1px solid transparent;
+}
+.gwt-DialogBox .dialogTopRightInner {
+  width: 6px;
+  zoom: 1;
+ border-bottom: 1px solid transparent;
+}
+.gwt-DialogBox .dialogBottomLeftInner {
+  width: 5px;
+  height: 8px;
+  zoom: 1;
+}
+.gwt-DialogBox .dialogBottomRightInner {
+  width: 5px;
+  height: 8px;
+  zoom: 1;
+}
+html>body .gwt-DialogBox .dialogTopLeft {
+  background: url(images/corner.png) no-repeat -13px 0px;
+ border-bottom: 1px solid #bbbbbb;
+}
+html>body .gwt-DialogBox .dialogTopRight {
+ background: url(images/corner.png) no-repeat -18px 0px;
+ border-bottom: 1px solid #bbbbbb;
+}
+html>body .gwt-DialogBox .dialogBottomLeft {
+  background: url(images/corner.png) no-repeat 0px -71px;
+}
+html>body .gwt-DialogBox .dialogBottomRight {
+  background: url(images/corner.png) no-repeat -5px -71px;
+}
+* html .gwt-DialogBox .dialogTopLeft {
+  width: 5px;
+  overflow: hidden;
+ border-bottom: 1px solid #bbbbbb;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/mytheme/images/ie6/corner_dialog_topleft.png',sizingMethod='crop');
+}
+* html .gwt-DialogBox .dialogTopRight {
+  width: 8px;
+  overflow: hidden;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/mytheme/images/ie6/corner_dialog_topright.png',sizingMethod='crop');
+}
+* html .gwt-DialogBox .dialogBottomLeftInner {
+  width: 5px;
+  height: 23px;
+  margin-top: -15px;
+  overflow: hidden;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/mytheme/images/ie6/corner_dialog_bottom.png',sizingMethod='crop');
+}
+* html .gwt-DialogBox .dialogBottomRightInner {
+  width: 13px;
+  height: 23px;
+  margin-left: -5px;
+  margin-top: -15px;
+  overflow: hidden;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/mytheme/images/ie6/corner_dialog_bottom.png',sizingMethod='crop');
+}

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/task
+END
+QuickTaskPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/task/QuickTaskPanel.java
+END
+TaskPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/task/TaskPanel.java
+END
+TaskDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/numhero/!svn/ver/757/src/com/numhero/client/mvp/task/TaskDialog.java
+END
+TaskSelect.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/numhero/!svn/ver/757/src/com/numhero/client/mvp/task/TaskSelect.java
+END
+TaskStaffDetailsTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/numhero/!svn/ver/738/src/com/numhero/client/mvp/task/TaskStaffDetailsTable.java
+END
+TaskPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/task/TaskPresenter.java
+END
+QuickTaskPanel.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/numhero/!svn/ver/758/src/com/numhero/client/mvp/task/QuickTaskPanel.ui.xml
+END
+TaskPanel.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/numhero/!svn/ver/737/src/com/numhero/client/mvp/task/TaskPanel.ui.xml
+END
+TaskView.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/numhero/!svn/ver/525/src/com/numhero/client/mvp/task/TaskView.java
+END
+TasksPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/numhero/!svn/ver/715/src/com/numhero/client/mvp/task/TasksPresenter.java
+END
+TasksTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/numhero/!svn/ver/735/src/com/numhero/client/mvp/task/TasksTable.java
+END
+TaskSelect.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/numhero/!svn/ver/603/src/com/numhero/client/mvp/task/TaskSelect.ui.xml
+END

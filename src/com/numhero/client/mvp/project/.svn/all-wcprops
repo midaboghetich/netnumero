@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/project
+END
+ProjectsTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/numhero/!svn/ver/737/src/com/numhero/client/mvp/project/ProjectsTable.java
+END
+ProjectSelect.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/numhero/!svn/ver/450/src/com/numhero/client/mvp/project/ProjectSelect.ui.xml
+END
+ProjectsPanel.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/numhero/!svn/ver/617/src/com/numhero/client/mvp/project/ProjectsPanel.ui.xml
+END
+ProjectSelect.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/numhero/!svn/ver/757/src/com/numhero/client/mvp/project/ProjectSelect.java
+END
+ProjectStaffDetailsTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/numhero/!svn/ver/737/src/com/numhero/client/mvp/project/ProjectStaffDetailsTable.java
+END
+ProjectsPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/numhero/!svn/ver/409/src/com/numhero/client/mvp/project/ProjectsPanel.java
+END
+QuickProjectPanel.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/numhero/!svn/ver/738/src/com/numhero/client/mvp/project/QuickProjectPanel.ui.xml
+END
+ProjectPanel.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/numhero/!svn/ver/737/src/com/numhero/client/mvp/project/ProjectPanel.ui.xml
+END
+ProjectsPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/project/ProjectsPresenter.java
+END
+QuickProjectPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/project/QuickProjectPanel.java
+END
+ProjectPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/project/ProjectPanel.java
+END
+ProjectDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/numhero/!svn/ver/757/src/com/numhero/client/mvp/project/ProjectDialog.java
+END
+ProjectTasksDetailsTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/numhero/!svn/ver/757/src/com/numhero/client/mvp/project/ProjectTasksDetailsTable.java
+END
+QuickProjectPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/project/QuickProjectPresenter.java
+END
+ProjectPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/project/ProjectPresenter.java
+END

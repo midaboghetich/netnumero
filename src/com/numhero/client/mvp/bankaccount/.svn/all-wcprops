@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/bankaccount
+END
+BankAccountPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/bankaccount/BankAccountPresenter.java
+END
+BankAccountPanel.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/numhero/!svn/ver/737/src/com/numhero/client/mvp/bankaccount/BankAccountPanel.ui.xml
+END
+BankAccountView.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/bankaccount/BankAccountView.java
+END
+BankAccountsPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/numhero/!svn/ver/727/src/com/numhero/client/mvp/bankaccount/BankAccountsPresenter.java
+END
+BankAccountsTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/numhero/!svn/ver/737/src/com/numhero/client/mvp/bankaccount/BankAccountsTable.java
+END
+BankAccountsPanel.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/numhero/!svn/ver/617/src/com/numhero/client/mvp/bankaccount/BankAccountsPanel.ui.xml
+END
+BankAccountPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/bankaccount/BankAccountPanel.java
+END

@@ -1,0 +1,182 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:n="urn:import:com.numhero.client.widget"
+             xmlns:nhiw="urn:import:com.numhero.client.mvp.document">
+    <ui:style>
+        /* Add CSS here. See the GWT docs on UI Binder for more details */
+        .important {
+        font-weight: bold;
+        }
+    </ui:style>
+    <g:HTMLPanel>
+        <n:MoneyinTitlePanel ui:field="titlePanel"/>
+        <div class="sub-container">
+            <div class="left-panel">
+                <n:TitleLevelTwo>
+                    <ui:msg key="invoices">Invoices</ui:msg>
+                </n:TitleLevelTwo>
+                <table class="inh-standard-recap" border="0" cellspacing="0"
+                       cellpadding="0">
+                    <tr>
+                        <th>Invoice No.</th>
+                        <th>Client</th>
+                        <th class="right">Amount</th>
+                        <th class="right">Status</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/i/files/pdf.gif" alt="Download invoice No. 000000"/>
+                            INV 2605
+                        </td>
+                        <td>James &amp; Sons Ltd.</td>
+                        <td class="right">&pound;3,500.00
+                        </td>
+                        <td class="right">Sent</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/i/files/pdf.gif" alt="Download invoice No. 000000"/>
+                            INV 2605
+                        </td>
+                        <td>DTK Ltd.</td>
+                        <td class="right">&pound;18,500.00
+                        </td>
+                        <td class="right">Sent</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/i/files/pdf.gif" alt="Download invoice No. 000000"/>
+                            INV 2605
+                        </td>
+                        <td>DTMC Ltd.</td>
+                        <td class="right">&pound;3,500.00
+                        </td>
+                        <td class="paid">Paid</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/i/files/pdf.gif" alt="Download invoice No. 000000"/>
+                            INV 2605
+                        </td>
+                        <td>THC Pharma Ltd.</td>
+                        <td class="right">&pound;10,500.00
+                        </td>
+                        <td class="right">Sent</td>
+                    </tr>
+                </table>
+                <hr/>
+                <n:TitleLevelTwo>
+                    <ui:msg key="estimates">Estimates</ui:msg>
+                </n:TitleLevelTwo>
+                <table class="inh-standard-recap" border="0" cellspacing="0"
+                       cellpadding="0">
+                    <tr>
+                        <th>Invoice No.</th>
+                        <th>Client</th>
+                        <th class="right">Amount</th>
+                        <th class="right">Status</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/i/files/pdf.gif" alt="Download invoice No. 000000"/>
+                            INV 2605
+                        </td>
+                        <td>James &amp; Sons Ltd.</td>
+                        <td class="right">&pound;3,500.00
+                        </td>
+                        <td class="right">Sent</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/i/files/pdf.gif" alt="Download invoice No. 000000"/>
+                            INV 2605
+                        </td>
+                        <td>DTK Ltd.</td>
+                        <td class="right">&pound;18,500.00
+                        </td>
+                        <td class="right">Sent</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/i/files/pdf.gif" alt="Download invoice No. 000000"/>
+                            INV 2605
+                        </td>
+                        <td>DTMC Ltd.</td>
+                        <td class="right">&pound;3,500.00
+                        </td>
+                        <td class="paid">Paid</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/i/files/pdf.gif" alt="Download invoice No. 000000"/>
+                            INV 2605
+                        </td>
+                        <td>THC Pharma Ltd.</td>
+                        <td class="right">&pound;10,500.00
+                        </td>
+                        <td class="right">Sent</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="right-panel">
+                <n:TitleLevelThree>
+                    <ui:msg key="testalo">Key Figures</ui:msg>
+                </n:TitleLevelThree>
+                <p class="inh-standard">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur velit ante, fermentum non porttitor nec, accumsan et
+                    odio.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur velit
+                    ante, fermentum non porttitor nec, accumsan et odio.
+                    Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit. Curabitur velit ante,
+                    fermentum non porttitor nec, accumsan et odio.
+                </p>
+
+                <table class="inh-standard-recap" border="0" cellspacing="0"
+                       cellpadding="0">
+                    <tr>
+                        <th>&nbsp;
+                        </th>
+                        <th class="right">Invoices</th>
+                        <th class="right">Estimates</th>
+                    </tr>
+                    <tr>
+                        <td>March 10</td>
+                        <td class="right">&pound;3,500.00
+                        </td>
+                        <td class="right">&pound;18,500.00
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Feb 10</td>
+                        <td class="right">&pound;3,500.00
+                        </td>
+                        <td class="right">&pound;18,500.00
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Jan 10</td>
+                        <td class="right">&pound;3,500.00
+                        </td>
+                        <td class="right">&pound;18,500.00
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Dec 09</td>
+                        <td class="right">&pound;3,500.00
+                        </td>
+                        <td class="right">&pound;18,500.00
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Nov 09</td>
+                        <td class="right">&pound;3,500.00
+                        </td>
+                        <td class="right">&pound;18,500.00
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </g:HTMLPanel>
+</ui:UiBinder> 

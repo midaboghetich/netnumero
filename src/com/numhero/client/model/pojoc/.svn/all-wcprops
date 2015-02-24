@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/numhero/!svn/ver/753/src/com/numhero/client/model/pojoc
+END
+InvoiceC.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/numhero/!svn/ver/720/src/com/numhero/client/model/pojoc/InvoiceC.java
+END
+SettingsC.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/numhero/!svn/ver/589/src/com/numhero/client/model/pojoc/SettingsC.java
+END
+ServiceC.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/numhero/!svn/ver/629/src/com/numhero/client/model/pojoc/ServiceC.java
+END
+TaskC.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/numhero/!svn/ver/746/src/com/numhero/client/model/pojoc/TaskC.java
+END
+ClientSupplierC.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/numhero/!svn/ver/747/src/com/numhero/client/model/pojoc/ClientSupplierC.java
+END
+StaffC.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/numhero/!svn/ver/670/src/com/numhero/client/model/pojoc/StaffC.java
+END
+ProjectC.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/numhero/!svn/ver/636/src/com/numhero/client/model/pojoc/ProjectC.java
+END
+ExpenseC.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/numhero/!svn/ver/531/src/com/numhero/client/model/pojoc/ExpenseC.java
+END
+TaxInfoC.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/numhero/!svn/ver/525/src/com/numhero/client/model/pojoc/TaxInfoC.java
+END
+BusinessAccountC.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/numhero/!svn/ver/509/src/com/numhero/client/model/pojoc/BusinessAccountC.java
+END
+TaskStaffDetailC.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/numhero/!svn/ver/597/src/com/numhero/client/model/pojoc/TaskStaffDetailC.java
+END
+ProjectTaskDetailC.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/numhero/!svn/ver/753/src/com/numhero/client/model/pojoc/ProjectTaskDetailC.java
+END
+ProjectStaffDetailC.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/numhero/!svn/ver/597/src/com/numhero/client/model/pojoc/ProjectStaffDetailC.java
+END
+ClientSupplierContactC.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/numhero/!svn/ver/554/src/com/numhero/client/model/pojoc/ClientSupplierContactC.java
+END
+UserC.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/numhero/!svn/ver/717/src/com/numhero/client/model/pojoc/UserC.java
+END
+InvoiceDetailC.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/numhero/!svn/ver/637/src/com/numhero/client/model/pojoc/InvoiceDetailC.java
+END
+ProductC.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/numhero/!svn/ver/595/src/com/numhero/client/model/pojoc/ProductC.java
+END
+TimeEntryC.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/numhero/!svn/ver/746/src/com/numhero/client/model/pojoc/TimeEntryC.java
+END
+BankAccountC.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/numhero/!svn/ver/509/src/com/numhero/client/model/pojoc/BankAccountC.java
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/numhero/!svn/ver/702/src/com/numhero/client/model/datacargo/timeentry
+END
+GetTimeEntryResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/numhero/!svn/ver/620/src/com/numhero/client/model/datacargo/timeentry/GetTimeEntryResponse.java
+END
+TimeEntriesRaiseInvoiceRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/numhero/!svn/ver/702/src/com/numhero/client/model/datacargo/timeentry/TimeEntriesRaiseInvoiceRequest.java
+END
+DeleteTimeEntriesRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/numhero/!svn/ver/698/src/com/numhero/client/model/datacargo/timeentry/DeleteTimeEntriesRequest.java
+END
+TimeEntryListRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/numhero/!svn/ver/442/src/com/numhero/client/model/datacargo/timeentry/TimeEntryListRequest.java
+END
+SaveTimeEntryRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/numhero/!svn/ver/667/src/com/numhero/client/model/datacargo/timeentry/SaveTimeEntryRequest.java
+END
+GetTimeEntryRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/numhero/!svn/ver/607/src/com/numhero/client/model/datacargo/timeentry/GetTimeEntryRequest.java
+END
+TimeEntryListResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/numhero/!svn/ver/549/src/com/numhero/client/model/datacargo/timeentry/TimeEntryListResponse.java
+END
+SaveTimeEntryResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/numhero/!svn/ver/692/src/com/numhero/client/model/datacargo/timeentry/SaveTimeEntryResponse.java
+END

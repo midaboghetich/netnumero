@@ -1,0 +1,9 @@
+Trying to change property 'svn:ignore' from '
+local_db.bin
+' to '
+',
+but the property has been locally changed from '
+local_db.bin
+' to 'local_db.bin
+datastore-indexes-auto.xml
+'.

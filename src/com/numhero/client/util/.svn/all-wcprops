@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/numhero/!svn/ver/664/src/com/numhero/client/util
+END
+ClientUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/numhero/!svn/ver/635/src/com/numhero/client/util/ClientUtils.java
+END
+ClientDialogUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/numhero/!svn/ver/393/src/com/numhero/client/util/ClientDialogUtils.java
+END
+Logger.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/numhero/!svn/ver/403/src/com/numhero/client/util/Logger.java
+END
+ApplicationInjector.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/numhero/!svn/ver/427/src/com/numhero/client/util/ApplicationInjector.java
+END
+Log.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/numhero/!svn/ver/401/src/com/numhero/client/util/Log.java
+END
+FireBugLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/numhero/!svn/ver/525/src/com/numhero/client/util/FireBugLogger.java
+END
+ApplicationValidationMessages.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/numhero/!svn/ver/664/src/com/numhero/client/util/ApplicationValidationMessages.java
+END
+ApplicationModule.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/numhero/!svn/ver/313/src/com/numhero/client/util/ApplicationModule.java
+END
+CoreUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/numhero/!svn/ver/525/src/com/numhero/client/util/CoreUtils.java
+END
+LocationUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/numhero/!svn/ver/588/src/com/numhero/client/util/LocationUtils.java
+END
+HostedModeLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/numhero/!svn/ver/407/src/com/numhero/client/util/HostedModeLogger.java
+END

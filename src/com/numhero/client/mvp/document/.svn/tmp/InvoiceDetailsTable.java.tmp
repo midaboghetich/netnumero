@@ -1,0 +1,337 @@
+package com.numhero.client.mvp.document;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.google.gwt.event.dom.client.ClickEvent;
+import com.google.gwt.event.dom.client.ClickHandler;
+import com.google.gwt.user.client.ui.HasHorizontalAlignment;
+import com.google.gwt.user.client.ui.TextBox;
+import com.google.inject.Inject;
+import com.numhero.client.Application;
+import com.numhero.client.model.datacargo.product.ProductListRequest;
+import com.numhero.client.model.datacargo.product.ProductListResponse;
+import com.numhero.client.model.datacargo.product.SaveProductRequest;
+import com.numhero.client.model.datacargo.product.SaveProductResponse;
+import com.numhero.client.model.datacargo.taxinfo.SaveTaxInfoRequest;
+import com.numhero.client.model.datacargo.taxinfo.SaveTaxInfoResponse;
+import com.numhero.client.model.datacargo.taxinfo.TaxInfoListRequest;
+import com.numhero.client.model.datacargo.taxinfo.TaxInfoListResponse;
+import com.numhero.client.model.pojoc.InvoiceC;
+import com.numhero.client.model.pojoc.InvoiceDetailC;
+import com.numhero.client.model.pojoc.ProductC;
+import com.numhero.client.model.pojoc.TaxInfoC;
+import com.numhero.client.mvp.product.ProductSelect;
+import com.numhero.client.mvp.product.ProductSelect.ProductSelectHandler;
+import com.numhero.client.mvp.taxinfo.TaxInfoSelect;
+import com.numhero.client.mvp.taxinfo.TaxInfoSelect.TaxInfoSelectHandler;
+import com.numhero.client.service.Service;
+import com.numhero.client.widget.table.FlexTableWithHeader;
+import com.numhero.client.widget.table.MouseEvent;
+import com.numhero.client.widget.table.MouseHandler;
+import com.numhero.client.widget.textbox.NumberTextBox;
+import com.numhero.shared.enums.CurrencyEnum;
+
+import eu.maydu.gwt.validation.client.ValidationProcessor;
+import eu.maydu.gwt.validation.client.actions.FocusAction;
+
+public class InvoiceDetailsTable extends FlexTableWithHeader implements MouseHandler {
+    public interface InvoiceDetailsHandler {
+        public void totalChanged();
+    }
+
+    private Service<ProductListRequest, ProductListResponse> productsService;
+    private Service<SaveProductRequest, SaveProductResponse> productSaveService;
+    private Service<TaxInfoListRequest, TaxInfoListResponse> taxInfosService;
+    private Service<SaveTaxInfoRequest, SaveTaxInfoResponse> taxInfoSaveService;
+
+    private List<InvoiceDetailLine> lines;
+    private InvoiceC				invoiceC;
+    private InvoiceDetailsHandler	handler;
+	private ValidationProcessor		validator;
+
+    @Inject
+    public InvoiceDetailsTable(
+            Service<ProductListRequest, ProductListResponse> productsService,
+            Service<SaveProductRequest, SaveProductResponse> productSaveService,
+            Service<TaxInfoListRequest, TaxInfoListResponse> taxInfosService,
+            Service<SaveTaxInfoRequest, SaveTaxInfoResponse> taxInfoSaveService) {
+        this.productsService = productsService;
+        this.productSaveService = productSaveService;
+        this.taxInfosService = taxInfosService;
+        this.taxInfoSaveService = taxInfoSaveService;
+        this.lines = new ArrayList<InvoiceDetailLine>();
+        setHeader();
+        setValues();
+
+        addMouseHandler(this);
+    }
+
+    public void setHandler(InvoiceDetailsHandler handler) {
+        this.handler = handler;
+    }
+
+    public void setValidator(ValidationProcessor validator) {
+		this.validator = validator;
+	}
+
+    public void setInvoiceC(InvoiceC invoiceC) {
+        this.invoiceC = invoiceC;
+        if (invoiceC.getDetails().isEmpty()) {
+            InvoiceDetailC idc1 = new InvoiceDetailC();
+            invoiceC.getDetails().add(idc1);
+
+            InvoiceDetailC idc2 = new InvoiceDetailC();
+            invoiceC.getDetails().add(idc2);
+
+            InvoiceDetailC idc3 = new InvoiceDetailC();
+            invoiceC.getDetails().add(idc3);
+        }
+
+        lines.clear();
+        for (InvoiceDetailC idc : invoiceC.getDetails()) {
+            addLine(idc);
+        }
+        setValues();
+    }
+
+    public void setCurrency(CurrencyEnum currency) {
+        for (InvoiceDetailLine idline : lines) {
+            idline.txUnitPrice.setCurrency(currency);
+            idline.txTotalPrice.setCurrency(currency);
+        }
+    }
+
+    public void addLine(InvoiceDetailC idc) {
+        lines.add(new InvoiceDetailLine(idc));
+    }
+
+    public void setValues() {
+        removeAllRows();
+        for (int row = 0; row < lines.size(); row++) {
+            InvoiceDetailLine idline = lines.get(row);
+            setWidget(row, 0, idline.sbProduct);
+            setWidget(row, 1, idline.txDescription);
+            setWidget(row, 2, idline.txUnitPrice);
+            setWidget(row, 3, idline.txQuantity);
+            setWidget(row, 4, idline.sbTax1);
+            setWidget(row, 5, idline.sbTax2);
+            setWidget(row, 6, idline.txTotalPrice);
+            setWidget(row, 7, idline.toolbar);
+            getCellFormatter().setStyleName(row, 7, "invoiceDetailsToolbar");
+        }
+    }
+
+    public void saveValuesFromUi() {
+        invoiceC.getDetails().clear();
+        for (int row = 0; row < lines.size(); row++) {
+            InvoiceDetailLine idline = lines.get(row);
+            idline.saveValuesFromUi();
+            invoiceC.getDetails().add(idline.invoiceDetailC);
+        }
+    }
+
+    public double getTotal() {
+        double ret = 0;
+        for (InvoiceDetailLine idline : lines) {
+            ret += idline.txTotalPrice.getAmount();
+        }
+        return ret;
+    }
+
+    @Override
+    public void onMouseOver(MouseEvent event) {
+        showRowControls(event);
+    }
+
+    @Override
+    public void onMouseOut(MouseEvent event) {
+        showRowControls(event);
+    }
+
+    // private methods --------------------
+    private void setHeader() {
+        setHeader(0, Application.getConstants().item(), HasHorizontalAlignment.ALIGN_LEFT, "140px");
+        setHeader(1, Application.getConstants().description(), HasHorizontalAlignment.ALIGN_LEFT, "%");
+        setHeader(2, Application.getConstants().unitPrice(), HasHorizontalAlignment.ALIGN_RIGHT, "70px");
+        setHeader(3, Application.getConstants().quantity(), HasHorizontalAlignment.ALIGN_RIGHT, "60px");
+        setHeader(4, Application.getConstants().tax1(), HasHorizontalAlignment.ALIGN_RIGHT, "70px");
+        setHeader(5, Application.getConstants().tax2(), HasHorizontalAlignment.ALIGN_RIGHT, "70px");
+        setHeader(6, Application.getConstants().price(), HasHorizontalAlignment.ALIGN_RIGHT, "70px");
+        setHeader(7, "", HasHorizontalAlignment.ALIGN_RIGHT, "52px", "invoiceDetailsToolbar");
+    }
+
+    private void showRowControls(MouseEvent event) {
+        for (int row = 0; row < lines.size(); row++) {
+            InvoiceDetailLine idline = lines.get(row);
+            idline.sbProduct.getBtAdd().setVisible(row == event.getRow() && 0 == event.getColumn());
+            idline.toolbar.setVisible(row == event.getRow());
+            idline.sbTax1.getBtAdd().setVisible(row == event.getRow() && 4 == event.getColumn());
+            idline.sbTax2.getBtAdd().setVisible(row == event.getRow() && 5 == event.getColumn());
+        }
+    }
+
+    // inner classes ------------------
+    private class InvoiceDetailLine implements ProductSelectHandler {
+		InvoiceDetailC			invoiceDetailC;
+		ProductSelect			sbProduct;
+		TextBox					txDescription;
+		NumberTextBox			txUnitPrice;
+		NumberTextBox			txQuantity;
+		TaxInfoSelect			sbTax1;
+		TaxInfoSelect			sbTax2;
+		NumberTextBox			txTotalPrice;
+		InvoiceDetailToolbar	toolbar;
+
+        InvoiceDetailLine(InvoiceDetailC idc) {
+            invoiceDetailC = idc;
+            sbProduct = new ProductSelect(productsService, productSaveService);
+            sbProduct.setHandler(this);
+            sbProduct.getBtAdd().setVisible(false);
+            sbProduct.setProduct(invoiceDetailC.getProductId(), invoiceDetailC.getName(), invoiceDetailC.getDescription(), invoiceDetailC.getPrice());
+
+            txDescription = new TextBox();
+            txDescription.setText(invoiceDetailC.getDescription());
+
+            txUnitPrice = new NumberTextBox(invoiceC.getCurrency()) {
+                public void stopEdit() {
+                    super.stopEdit();
+                    invoiceDetailC.setPrice(getAmount());
+                    valuesChanged();
+                }
+            };
+            txQuantity = new NumberTextBox() {
+                public void stopEdit() {
+                    super.stopEdit();
+                    invoiceDetailC.setQuantity(getAmount());
+                    valuesChanged();
+                }
+            };
+            sbTax1 = new TaxInfoSelect(taxInfosService, taxInfoSaveService);
+            sbTax1.setHandler(new TaxInfoSelectHandler() {
+                @Override
+                public void taxInfoChanged(TaxInfoC taxInfoC) {
+                    invoiceDetailC.setTax(taxInfoC, 0);
+                    valuesChanged();
+                }
+            });
+            sbTax1.getBtAdd().setVisible(false);
+            sbTax2 = new TaxInfoSelect(taxInfosService, taxInfoSaveService);
+            sbTax2.setHandler(new TaxInfoSelectHandler() {
+                @Override
+                public void taxInfoChanged(TaxInfoC taxInfoC) {
+                    invoiceDetailC.setTax(taxInfoC, 1);
+                    valuesChanged();
+                }
+            });
+            sbTax2.getBtAdd().setVisible(false);
+            txTotalPrice = new NumberTextBox(invoiceC.getCurrency());
+            txTotalPrice.setReadOnly(true);
+            toolbar = new InvoiceDetailToolbar();
+            toolbar.setVisible(false);
+            toolbar.getBtDelete().addClickHandler(new ClickHandler() {
+                @Override
+                public void onClick(ClickEvent event) {
+                    destroy();
+                }
+            });
+            toolbar.getBtMoveUp().addClickHandler(new ClickHandler() {
+                @Override
+                public void onClick(ClickEvent event) {
+                    moveUp();
+                }
+            });
+            toolbar.getBtMoveDown().addClickHandler(new ClickHandler() {
+                @Override
+                public void onClick(ClickEvent event) {
+                    moveDown();
+                }
+            });
+            addValidators();
+            setLineValues();
+        }
+
+        public void saveValuesFromUi() {
+            invoiceDetailC.setDescription(txDescription.getText());
+        }
+
+        @Override
+        public void productChanged(ProductC productC) {
+            invoiceDetailC.setProductId(productC.getId());
+            invoiceDetailC.setName(productC.getName());
+            invoiceDetailC.setDescription(productC.getDescription());
+            invoiceDetailC.setPrice(productC.getUnitPrice());
+            txDescription.setText(productC.getDescription());
+            txUnitPrice.setAmount(productC.getUnitPrice());
+            valuesChanged();
+        }
+
+        void valuesChanged() {
+            setLineValues();
+            if (handler != null) {
+                handler.totalChanged();
+            }
+        }
+
+    	@SuppressWarnings("unchecked")
+    	private void addValidators() {
+    		FocusAction focusAction = new FocusAction();
+
+    		validator.addValidators("Description" + this,
+    				new NotEmptyValidator(txDescription, true, "required")
+    					.addActionForFailure(focusAction)
+    					.addActionForFailure(new StyleAction("validation-failed")));
+    	}
+
+        void setLineValues() {
+            txUnitPrice.setAmount(invoiceDetailC.getPrice());
+            txQuantity.setAmount(invoiceDetailC.getQuantity());
+            double totalPrice = invoiceDetailC.getPrice().doubleValue() * invoiceDetailC.getQuantity().doubleValue();
+            int i = 0;
+            for (TaxInfoC taxC : invoiceDetailC.getTaxes()) {
+                i++;
+                if (i == 1) {
+                    sbTax1.setTaxInfo(taxC);
+                } else if (i == 2) {
+                    sbTax2.setTaxInfo(taxC);
+                }
+                double taxValue;
+                if (taxC.isPercent()) {
+                    taxValue = invoiceDetailC.getPrice().doubleValue() * invoiceDetailC.getQuantity().doubleValue() * taxC.getPercent() / 100;
+                } else {
+                    taxValue = taxC.getValue();
+                }
+                totalPrice += taxValue;
+            }
+            txTotalPrice.setAmount(totalPrice);
+        }
+
+        int getRow() {
+            return lines.indexOf(InvoiceDetailLine.this);
+        }
+
+        void moveUp() {
+            int row = getRow();
+            if (row > 0) {
+                lines.set(row, lines.get(row - 1));
+                lines.set(row - 1, InvoiceDetailLine.this);
+                setValues();
+            }
+        }
+
+        void moveDown() {
+            int row = getRow();
+            if (row < lines.size() - 1) {
+                lines.set(row, lines.get(row + 1));
+                lines.set(row + 1, InvoiceDetailLine.this);
+                setValues();
+            }
+        }
+
+        void destroy() {
+    		validator.removeValidators("Description" + this);
+            removeRow(getRow());
+            lines.remove(InvoiceDetailLine.this);
+        }
+    }
+}

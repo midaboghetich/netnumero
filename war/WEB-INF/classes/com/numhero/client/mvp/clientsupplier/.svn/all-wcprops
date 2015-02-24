@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/numhero/!svn/ver/764/src/com/numhero/client/mvp/clientsupplier
+END
+SearchClientSupplierPanel.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/numhero/!svn/ver/764/src/com/numhero/client/mvp/clientsupplier/SearchClientSupplierPanel.ui.xml
+END
+SupplierSelect.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/clientsupplier/SupplierSelect.java
+END
+ClientPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/clientsupplier/ClientPresenter.java
+END
+SearchClientSupplierPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/clientsupplier/SearchClientSupplierPanel.java
+END
+ClientSelect.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/numhero/!svn/ver/763/src/com/numhero/client/mvp/clientsupplier/ClientSelect.ui.xml
+END
+QuickClientSupplierPanel.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/numhero/!svn/ver/754/src/com/numhero/client/mvp/clientsupplier/QuickClientSupplierPanel.ui.xml
+END
+SearchClientTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/clientsupplier/SearchClientTable.java
+END
+ClientSupplierPanel.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/numhero/!svn/ver/754/src/com/numhero/client/mvp/clientsupplier/ClientSupplierPanel.ui.xml
+END
+SuppliersPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/numhero/!svn/ver/727/src/com/numhero/client/mvp/clientsupplier/SuppliersPresenter.java
+END
+ClientSelect.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/numhero/!svn/ver/764/src/com/numhero/client/mvp/clientsupplier/ClientSelect.java
+END
+QuickClientSupplierPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/clientsupplier/QuickClientSupplierPanel.java
+END
+ClientSupplierDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/numhero/!svn/ver/751/src/com/numhero/client/mvp/clientsupplier/ClientSupplierDialog.java
+END
+ClientSupplierPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/clientsupplier/ClientSupplierPanel.java
+END
+SearchClientDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/numhero/!svn/ver/764/src/com/numhero/client/mvp/clientsupplier/SearchClientDialog.java
+END
+ClientsPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/numhero/!svn/ver/721/src/com/numhero/client/mvp/clientsupplier/ClientsPresenter.java
+END
+SupplierPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/clientsupplier/SupplierPresenter.java
+END
+ClientSuppliersTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/numhero/!svn/ver/737/src/com/numhero/client/mvp/clientsupplier/ClientSuppliersTable.java
+END
+SupplierSelect.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/clientsupplier/SupplierSelect.ui.xml
+END

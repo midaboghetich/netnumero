@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/numhero/!svn/ver/744/src/com/numhero/shared/pojoc/field
+END
+DateField.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/numhero/!svn/ver/733/src/com/numhero/shared/pojoc/field/DateField.java
+END
+IntegerField.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/numhero/!svn/ver/733/src/com/numhero/shared/pojoc/field/IntegerField.java
+END
+BooleanField.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/numhero/!svn/ver/733/src/com/numhero/shared/pojoc/field/BooleanField.java
+END
+EnumField.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/numhero/!svn/ver/744/src/com/numhero/shared/pojoc/field/EnumField.java
+END
+StringField.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/numhero/!svn/ver/734/src/com/numhero/shared/pojoc/field/StringField.java
+END
+DoubleField.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/numhero/!svn/ver/733/src/com/numhero/shared/pojoc/field/DoubleField.java
+END
+PojoCField.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/numhero/!svn/ver/734/src/com/numhero/shared/pojoc/field/PojoCField.java
+END

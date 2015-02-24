@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/numhero/!svn/ver/698/src/com/numhero/client/model/datacargo/staff
+END
+DeleteStaffRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/numhero/!svn/ver/698/src/com/numhero/client/model/datacargo/staff/DeleteStaffRequest.java
+END
+SaveStaffResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/numhero/!svn/ver/692/src/com/numhero/client/model/datacargo/staff/SaveStaffResponse.java
+END
+InternalListRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/numhero/!svn/ver/565/src/com/numhero/client/model/datacargo/staff/InternalListRequest.java
+END
+GetStaffResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/numhero/!svn/ver/622/src/com/numhero/client/model/datacargo/staff/GetStaffResponse.java
+END
+ContractorListRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/numhero/!svn/ver/567/src/com/numhero/client/model/datacargo/staff/ContractorListRequest.java
+END
+SaveInternalRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/numhero/!svn/ver/667/src/com/numhero/client/model/datacargo/staff/SaveInternalRequest.java
+END
+SaveContractorRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/numhero/!svn/ver/549/src/com/numhero/client/model/datacargo/staff/SaveContractorRequest.java
+END
+StaffListRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/numhero/!svn/ver/597/src/com/numhero/client/model/datacargo/staff/StaffListRequest.java
+END
+SaveStaffRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/numhero/!svn/ver/667/src/com/numhero/client/model/datacargo/staff/SaveStaffRequest.java
+END
+GetStaffRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/numhero/!svn/ver/607/src/com/numhero/client/model/datacargo/staff/GetStaffRequest.java
+END
+StaffListResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/numhero/!svn/ver/549/src/com/numhero/client/model/datacargo/staff/StaffListResponse.java
+END

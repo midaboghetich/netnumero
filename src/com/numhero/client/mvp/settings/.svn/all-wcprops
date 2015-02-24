@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/settings
+END
+SettingsPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/settings/SettingsPanel.java
+END
+SettingsPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/settings/SettingsPresenter.java
+END
+SettingsView.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/numhero/!svn/ver/589/src/com/numhero/client/mvp/settings/SettingsView.java
+END
+SettingsPanel.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/numhero/!svn/ver/659/src/com/numhero/client/mvp/settings/SettingsPanel.ui.xml
+END

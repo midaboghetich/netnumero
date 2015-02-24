@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 59
+com.numhero.core.Core
+application
+auth
+Authentication.html
+
+END

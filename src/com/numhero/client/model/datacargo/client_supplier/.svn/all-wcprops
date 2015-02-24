@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/numhero/!svn/ver/702/src/com/numhero/client/model/datacargo/client_supplier
+END
+ClientSupplierRaiseInvoicesRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/numhero/!svn/ver/702/src/com/numhero/client/model/datacargo/client_supplier/ClientSupplierRaiseInvoicesRequest.java
+END
+SaveClientSupplierResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/numhero/!svn/ver/692/src/com/numhero/client/model/datacargo/client_supplier/SaveClientSupplierResponse.java
+END
+GetClientSupplierResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/numhero/!svn/ver/689/src/com/numhero/client/model/datacargo/client_supplier/GetClientSupplierResponse.java
+END
+ClientListRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/numhero/!svn/ver/689/src/com/numhero/client/model/datacargo/client_supplier/ClientListRequest.java
+END
+DeleteClientsSuppliersRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/numhero/!svn/ver/702/src/com/numhero/client/model/datacargo/client_supplier/DeleteClientsSuppliersRequest.java
+END
+SupplierListRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/numhero/!svn/ver/689/src/com/numhero/client/model/datacargo/client_supplier/SupplierListRequest.java
+END
+SaveClientSupplierRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/numhero/!svn/ver/689/src/com/numhero/client/model/datacargo/client_supplier/SaveClientSupplierRequest.java
+END
+ClientSupplierRaiseExpensesRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/numhero/!svn/ver/702/src/com/numhero/client/model/datacargo/client_supplier/ClientSupplierRaiseExpensesRequest.java
+END
+GetClientSupplierRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/numhero/!svn/ver/689/src/com/numhero/client/model/datacargo/client_supplier/GetClientSupplierRequest.java
+END
+ClientSupplierListResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/numhero/!svn/ver/689/src/com/numhero/client/model/datacargo/client_supplier/ClientSupplierListResponse.java
+END
+ClientSupplierRaiseEstimatesRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/numhero/!svn/ver/702/src/com/numhero/client/model/datacargo/client_supplier/ClientSupplierRaiseEstimatesRequest.java
+END

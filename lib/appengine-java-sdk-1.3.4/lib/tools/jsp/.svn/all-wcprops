@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/numhero/!svn/ver/463/lib/appengine-java-sdk-1.3.4/lib/tools/jsp
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/numhero/!svn/ver/460/lib/appengine-java-sdk-1.3.4/lib/tools/jsp/LICENSE
+END
+repackaged-appengine-jakarta-jstl-1.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/numhero/!svn/ver/463/lib/appengine-java-sdk-1.3.4/lib/tools/jsp/repackaged-appengine-jakarta-jstl-1.1.2.jar
+END
+repackaged-appengine-jakarta-standard-1.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/numhero/!svn/ver/463/lib/appengine-java-sdk-1.3.4/lib/tools/jsp/repackaged-appengine-jakarta-standard-1.1.2.jar
+END

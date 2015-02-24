@@ -1,0 +1,58 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:n="urn:import:com.numhero.client.widget"
+             xmlns:s="urn:import:com.numhero.client.widget.submenu">
+    <ui:style>
+    </ui:style>
+    <g:HTMLPanel>
+        <div class="titlePanelContainer">
+            <div class="panel-title">
+                <n:TitleLevelOne ui:field="txTitle"/>
+            </div>
+            <div class="panel-menu">
+                <ul class="first-level">
+                    <li class="menu-title">
+                        <ui:msg key="submenu.moneyin.invoices.title">Invoices</ui:msg>
+                        <ul class="second-level">
+                            <li>
+                                <div id="menu-sub">
+                                    <div class="cell">
+                                        <s:InvoicesSubmenu/>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-title">
+                        <ui:msg key="submenu.moneyin.estimates.title">Estimates</ui:msg>
+                        <ul class="second-level">
+                            <li>
+                                <div id="menu-sub">
+                                    <div class="cell">
+                                        <s:EstimatesSubmenu/>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-title">
+                        <ui:msg key="submenu.moneyin.items.title">Items</ui:msg>
+                        <ul class="second-level">
+                            <li>
+                                <div id="menu-sub">
+                                    <div class="cell">
+                                        <s:ItemsSubmenu/>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="panel-button">
+                <n:NetNumeroButton ui:field="btRightButton"/>
+            </div>
+        </div>
+        <hr/>
+    </g:HTMLPanel>
+</ui:UiBinder> 

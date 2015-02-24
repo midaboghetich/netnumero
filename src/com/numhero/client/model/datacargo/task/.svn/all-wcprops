@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/numhero/!svn/ver/698/src/com/numhero/client/model/datacargo/task
+END
+SaveTaskResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/numhero/!svn/ver/692/src/com/numhero/client/model/datacargo/task/SaveTaskResponse.java
+END
+GetTaskResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/numhero/!svn/ver/620/src/com/numhero/client/model/datacargo/task/GetTaskResponse.java
+END
+DeleteTasksRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/numhero/!svn/ver/698/src/com/numhero/client/model/datacargo/task/DeleteTasksRequest.java
+END
+TaskListRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/numhero/!svn/ver/447/src/com/numhero/client/model/datacargo/task/TaskListRequest.java
+END
+SaveTaskRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/numhero/!svn/ver/667/src/com/numhero/client/model/datacargo/task/SaveTaskRequest.java
+END
+GetTaskRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/numhero/!svn/ver/607/src/com/numhero/client/model/datacargo/task/GetTaskRequest.java
+END
+TaskListResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/numhero/!svn/ver/577/src/com/numhero/client/model/datacargo/task/TaskListResponse.java
+END

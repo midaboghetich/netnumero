@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/numhero/!svn/ver/457/lib/appengine-java-sdk-1.3.4/config/user
+END
+logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/numhero/!svn/ver/457/lib/appengine-java-sdk-1.3.4/config/user/logging.properties
+END
+ant-macros.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/numhero/!svn/ver/457/lib/appengine-java-sdk-1.3.4/config/user/ant-macros.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/numhero/!svn/ver/457/lib/appengine-java-sdk-1.3.4/config/user/log4j.properties
+END

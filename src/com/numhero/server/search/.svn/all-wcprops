@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/numhero/!svn/ver/525/src/com/numhero/server/search
+END
+TextTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/numhero/!svn/ver/315/src/com/numhero/server/search/TextTokenizer.java
+END
+IsSearchable.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/numhero/!svn/ver/525/src/com/numhero/server/search/IsSearchable.java
+END
+PorterStemAnalyzer.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/numhero/!svn/ver/315/src/com/numhero/server/search/PorterStemAnalyzer.java
+END

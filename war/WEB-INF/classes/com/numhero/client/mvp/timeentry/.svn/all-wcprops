@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/timeentry
+END
+TimeEntriesPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/numhero/!svn/ver/712/src/com/numhero/client/mvp/timeentry/TimeEntriesPresenter.java
+END
+TimeEntriesTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/numhero/!svn/ver/750/src/com/numhero/client/mvp/timeentry/TimeEntriesTable.java
+END
+TimeEntryPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/timeentry/TimeEntryPanel.java
+END
+TimeEntriesPanel.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/numhero/!svn/ver/737/src/com/numhero/client/mvp/timeentry/TimeEntriesPanel.ui.xml
+END
+TimeEntryPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/timeentry/TimeEntryPresenter.java
+END
+TimeEntryPanel.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/numhero/!svn/ver/750/src/com/numhero/client/mvp/timeentry/TimeEntryPanel.ui.xml
+END
+TimeEntryView.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/numhero/!svn/ver/525/src/com/numhero/client/mvp/timeentry/TimeEntryView.java
+END

@@ -1,0 +1,67 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:gwtdate="com.google.gwt.user.datepicker.client" xmlns:nhw="urn:import:com.numhero.client.widget"
+             xmlns:nhtb="urn:import:com.numhero.client.widget.textbox"
+             xmlns:nhcb="urn:import:com.numhero.client.widget.combobox"
+             xmlns:nhf="urn:import:com.numhero.client.widget.form" xmlns:gwt="urn:import:com.google.gwt.user.client.ui"
+             ui:defaultLocale="en" ui:generateKeys="com.google.gwt.i18n.rebind.keygen.MD5KeyGenerator"
+             ui:generateFormat="com.google.gwt.i18n.rebind.format.PropertiesFormat"
+             ui:generateFilename="TaxPanel" ui:generateLocales="default">
+
+    <gwt:VerticalPanel>
+        <nhw:TitleLevelOne ui:field="hdTitle"/>
+
+        <gwt:HTMLPanel>
+            <table class="formContainer" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+                    <tr>
+                        <td class="formItem">
+                            <nhw:FormItem titleWidth="80">
+                                <gwt:Label>
+                                    <ui:msg key="taxinfo.panel.name">Name</ui:msg>
+                                </gwt:Label>
+                                <gwt:TextBox ui:field="tbName"/>
+                            </nhw:FormItem>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="formItem">
+                            <nhw:FormItem titleWidth="80" height="28px">
+                                <nhf:CheckBoxLabel ui:field="lbPercent">
+                                    <ui:msg key="taxinfo.panel.percent">Percent</ui:msg>
+                                </nhf:CheckBoxLabel>
+                                <nhtb:NumberTextBox ui:field="tbPercent"/>
+                            </nhw:FormItem>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="formItem">
+                            <nhw:FormItem titleWidth="80" height="28px">
+                                <nhf:CheckBoxLabel ui:field="lbValue">
+                                    <ui:msg key="taxinfo.panel.value">Value</ui:msg>
+                                </nhf:CheckBoxLabel>
+                                <nhtb:NumberTextBox ui:field="tbValue"/>
+                                <nhcb:CurrencyEnumComboBox ui:field="cbCurrency" width="65"/>
+                            </nhw:FormItem>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br/>
+            <br/>
+        </gwt:HTMLPanel>
+
+        <gwt:HorizontalPanel styleName="buttonsPanel">
+            <nhw:NetNumeroButton styleName="inh-button" href="javascript:;"
+                                 ui:field="btSave">
+                <ui:msg key="taxinfo.supplier.save">Save</ui:msg>
+            </nhw:NetNumeroButton>
+
+            <nhw:NetNumeroButton styleName="inh-button" href="javascript:;"
+                                 ui:field="btCancel">
+                <ui:msg key="taxinfo.supplier.cancel">Cancel</ui:msg>
+            </nhw:NetNumeroButton>
+        </gwt:HorizontalPanel>
+    </gwt:VerticalPanel>
+
+</ui:UiBinder>

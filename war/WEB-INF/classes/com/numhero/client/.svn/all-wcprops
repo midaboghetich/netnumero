@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/numhero/!svn/ver/764/src/com/numhero/client
+END
+Application.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/numhero/!svn/ver/407/src/com/numhero/client/Application.java
+END
+ClientContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/numhero/!svn/ver/509/src/com/numhero/client/ClientContext.java
+END
+LocalizableMessages.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/numhero/!svn/ver/443/src/com/numhero/client/LocalizableMessages.java
+END
+LocalizableConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/numhero/!svn/ver/760/src/com/numhero/client/LocalizableConstants.java
+END

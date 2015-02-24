@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/numhero/!svn/ver/461/lib/appengine-java-sdk-1.3.4/lib/agent
+END
+appengine-agentimpl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/numhero/!svn/ver/461/lib/appengine-java-sdk-1.3.4/lib/agent/appengine-agentimpl.jar
+END
+appengine-agent.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/numhero/!svn/ver/461/lib/appengine-java-sdk-1.3.4/lib/agent/appengine-agent.jar
+END

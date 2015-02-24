@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/staff
+END
+QuickStaffPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/staff/QuickStaffPanel.java
+END
+QuickInternalPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/staff/QuickInternalPresenter.java
+END
+StaffDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/staff/StaffDialog.java
+END
+StaffPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/staff/StaffPanel.java
+END
+StaffSelect.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/numhero/!svn/ver/755/src/com/numhero/client/mvp/staff/StaffSelect.java
+END
+QuickContractorPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/staff/QuickContractorPresenter.java
+END
+InternalPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/staff/InternalPresenter.java
+END
+ContractorPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/staff/ContractorPresenter.java
+END
+InternalsPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/numhero/!svn/ver/712/src/com/numhero/client/mvp/staff/InternalsPresenter.java
+END
+ContractorsPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/numhero/!svn/ver/712/src/com/numhero/client/mvp/staff/ContractorsPresenter.java
+END
+QuickStaffPanel.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/numhero/!svn/ver/754/src/com/numhero/client/mvp/staff/QuickStaffPanel.ui.xml
+END
+StaffPanel.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/numhero/!svn/ver/754/src/com/numhero/client/mvp/staff/StaffPanel.ui.xml
+END
+StaffSelect.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/numhero/!svn/ver/603/src/com/numhero/client/mvp/staff/StaffSelect.ui.xml
+END
+StaffsTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/numhero/!svn/ver/737/src/com/numhero/client/mvp/staff/StaffsTable.java
+END

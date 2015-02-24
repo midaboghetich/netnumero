@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/numhero/!svn/ver/692/src/com/numhero/client/mvp/taxinfo
+END
+TaxInfoPanel.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/numhero/!svn/ver/525/src/com/numhero/client/mvp/taxinfo/TaxInfoPanel.ui.xml
+END
+TaxInfoSelect.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/numhero/!svn/ver/422/src/com/numhero/client/mvp/taxinfo/TaxInfoSelect.ui.xml
+END
+TaxInfoPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/numhero/!svn/ver/659/src/com/numhero/client/mvp/taxinfo/TaxInfoPanel.java
+END
+TaxInfoDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/numhero/!svn/ver/692/src/com/numhero/client/mvp/taxinfo/TaxInfoDialog.java
+END
+TaxInfoSelect.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/numhero/!svn/ver/525/src/com/numhero/client/mvp/taxinfo/TaxInfoSelect.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/numhero/!svn/ver/708/test/com/numhero/server/utils
+END
+XmlUtilsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/numhero/!svn/ver/708/test/com/numhero/server/utils/XmlUtilsTest.java
+END
+SharedUtilsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/numhero/!svn/ver/689/test/com/numhero/server/utils/SharedUtilsTest.java
+END
+StringUtilsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/numhero/!svn/ver/653/test/com/numhero/server/utils/StringUtilsTest.java
+END
+XmlEntityParserTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/numhero/!svn/ver/691/test/com/numhero/server/utils/XmlEntityParserTest.java
+END

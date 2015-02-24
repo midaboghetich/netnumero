@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/numhero/!svn/ver/692/src/com/numhero/client/model/datacargo/businessaccount
+END
+SaveBusinessAccountRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/numhero/!svn/ver/667/src/com/numhero/client/model/datacargo/businessaccount/SaveBusinessAccountRequest.java
+END
+GetBusinessAccountRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/numhero/!svn/ver/607/src/com/numhero/client/model/datacargo/businessaccount/GetBusinessAccountRequest.java
+END
+SaveBusinessAccountResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/numhero/!svn/ver/692/src/com/numhero/client/model/datacargo/businessaccount/SaveBusinessAccountResponse.java
+END
+GetBusinessAccountResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/numhero/!svn/ver/620/src/com/numhero/client/model/datacargo/businessaccount/GetBusinessAccountResponse.java
+END

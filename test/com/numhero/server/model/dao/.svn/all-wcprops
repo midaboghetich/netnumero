@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/numhero/!svn/ver/745/test/com/numhero/server/model/dao
+END
+InvoiceDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/numhero/!svn/ver/574/test/com/numhero/server/model/dao/InvoiceDaoTest.java
+END
+UserDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/numhero/!svn/ver/704/test/com/numhero/server/model/dao/UserDaoTest.java
+END
+TimeEntryDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/numhero/!svn/ver/631/test/com/numhero/server/model/dao/TimeEntryDaoTest.java
+END
+TaskDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/numhero/!svn/ver/570/test/com/numhero/server/model/dao/TaskDaoTest.java
+END
+StaffDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/numhero/!svn/ver/570/test/com/numhero/server/model/dao/StaffDaoTest.java
+END
+SessionDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/numhero/!svn/ver/657/test/com/numhero/server/model/dao/SessionDaoTest.java
+END
+ProjectDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/numhero/!svn/ver/712/test/com/numhero/server/model/dao/ProjectDaoTest.java
+END
+BusinessAccountDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/numhero/!svn/ver/510/test/com/numhero/server/model/dao/BusinessAccountDaoTest.java
+END
+BaseDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/numhero/!svn/ver/745/test/com/numhero/server/model/dao/BaseDaoTest.java
+END
+TestCaseWithMockedDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/numhero/!svn/ver/707/test/com/numhero/server/model/dao/TestCaseWithMockedDao.java
+END

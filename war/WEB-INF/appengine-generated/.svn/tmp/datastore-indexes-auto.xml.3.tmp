@@ -1,0 +1,24 @@
+<<<<<<< .mine
+<!-- Indices written at Fri, 18 Jun 2010 15:07:39 UTC -->
+=======
+<!-- Indices written at Sun, 20 Jun 2010 12:16:25 UTC -->
+>>>>>>> .r658
+
+<datastore-indexes>
+
+    <!-- Used 5 times in query history -->
+    <datastore-index kind="ProjectStaffDetail" ancestor="true" source="auto">
+        <property name="projectStaffDetails_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 5 times in query history -->
+    <datastore-index kind="ProjectTaskDetail" ancestor="true" source="auto">
+        <property name="projectTaskDetails_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 3 times in query history -->
+    <datastore-index kind="ClientSupplierContact" ancestor="true" source="auto">
+        <property name="contacts_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>

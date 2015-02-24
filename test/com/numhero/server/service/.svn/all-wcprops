@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/numhero/!svn/ver/745/test/com/numhero/server/service
+END
+RestCreateNewSessionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/numhero/!svn/ver/745/test/com/numhero/server/service/RestCreateNewSessionTest.java
+END
+AuthenticatedServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/numhero/!svn/ver/655/test/com/numhero/server/service/AuthenticatedServiceTest.java
+END
+XmlResponseParserTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/numhero/!svn/ver/704/test/com/numhero/server/service/XmlResponseParserTest.java
+END
+RestCommandProcessorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/numhero/!svn/ver/695/test/com/numhero/server/service/RestCommandProcessorTest.java
+END
+DataServiceImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/numhero/!svn/ver/707/test/com/numhero/server/service/DataServiceImplTest.java
+END

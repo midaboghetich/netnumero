@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/numhero/!svn/ver/260/lib/junit4.5
+END
+junit-4.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/numhero/!svn/ver/260/lib/junit4.5/junit-4.5.jar
+END
+junit-4.5-src.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/numhero/!svn/ver/260/lib/junit4.5/junit-4.5-src.jar
+END
+junit-dep-4.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/numhero/!svn/ver/260/lib/junit4.5/junit-dep-4.5.jar
+END

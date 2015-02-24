@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/numhero/!svn/ver/531/src/com/numhero/client/place
+END
+PlaceManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/numhero/!svn/ver/531/src/com/numhero/client/place/PlaceManager.java
+END
+PlaceRequestEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/numhero/!svn/ver/531/src/com/numhero/client/place/PlaceRequestEvent.java
+END
+PlaceChangedEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/numhero/!svn/ver/393/src/com/numhero/client/place/PlaceChangedEvent.java
+END
+RestUrl.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/numhero/!svn/ver/531/src/com/numhero/client/place/RestUrl.java
+END
+PlaceParsingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/numhero/!svn/ver/393/src/com/numhero/client/place/PlaceParsingException.java
+END
+PlaceRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/numhero/!svn/ver/393/src/com/numhero/client/place/PlaceRequestHandler.java
+END
+PlaceChangedHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/numhero/!svn/ver/531/src/com/numhero/client/place/PlaceChangedHandler.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/numhero/!svn/ver/759/src/com/numhero/server/service
+END
+RestCreateNewSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/numhero/!svn/ver/759/src/com/numhero/server/service/RestCreateNewSession.java
+END
+AuthService.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/numhero/!svn/ver/546/src/com/numhero/server/service/AuthService.java
+END
+RestServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/numhero/!svn/ver/707/src/com/numhero/server/service/RestServlet.java
+END
+AuthenticatedService.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/numhero/!svn/ver/658/src/com/numhero/server/service/AuthenticatedService.java
+END
+RestCommandPreProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/numhero/!svn/ver/689/src/com/numhero/server/service/RestCommandPreProcessor.java
+END
+CompanyServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/numhero/!svn/ver/704/src/com/numhero/server/service/CompanyServlet.java
+END
+DataServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/numhero/!svn/ver/658/src/com/numhero/server/service/DataServiceImpl.java
+END

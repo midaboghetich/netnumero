@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/numhero/!svn/ver/742/src/com/numhero/shared/enums
+END
+PaymentMethodEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/numhero/!svn/ver/314/src/com/numhero/shared/enums/PaymentMethodEnum.java
+END
+TimeEntryTypeEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/numhero/!svn/ver/442/src/com/numhero/shared/enums/TimeEntryTypeEnum.java
+END
+UserStatusEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/numhero/!svn/ver/314/src/com/numhero/shared/enums/UserStatusEnum.java
+END
+RecurringFrequencyEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/numhero/!svn/ver/214/src/com/numhero/shared/enums/RecurringFrequencyEnum.java
+END
+ProductTypeEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/numhero/!svn/ver/371/src/com/numhero/shared/enums/ProductTypeEnum.java
+END
+DateFormatEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/numhero/!svn/ver/314/src/com/numhero/shared/enums/DateFormatEnum.java
+END
+CurrencyEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/numhero/!svn/ver/314/src/com/numhero/shared/enums/CurrencyEnum.java
+END
+InvoiceTypeEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/numhero/!svn/ver/531/src/com/numhero/shared/enums/InvoiceTypeEnum.java
+END
+LocaleEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/numhero/!svn/ver/589/src/com/numhero/shared/enums/LocaleEnum.java
+END
+UserRoleEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/numhero/!svn/ver/704/src/com/numhero/shared/enums/UserRoleEnum.java
+END
+InvoiceStatusEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/numhero/!svn/ver/742/src/com/numhero/shared/enums/InvoiceStatusEnum.java
+END
+ServiceUnitEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/numhero/!svn/ver/629/src/com/numhero/shared/enums/ServiceUnitEnum.java
+END
+ClientSupplierEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/numhero/!svn/ver/214/src/com/numhero/shared/enums/ClientSupplierEnum.java
+END
+TaskStateEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/numhero/!svn/ver/337/src/com/numhero/shared/enums/TaskStateEnum.java
+END
+StaffTypeEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/numhero/!svn/ver/453/src/com/numhero/shared/enums/StaffTypeEnum.java
+END
+ProjectStateEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/numhero/!svn/ver/314/src/com/numhero/shared/enums/ProjectStateEnum.java
+END
+TimeFormatEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/numhero/!svn/ver/314/src/com/numhero/shared/enums/TimeFormatEnum.java
+END
+SendInvoiceTypeEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/numhero/!svn/ver/351/src/com/numhero/shared/enums/SendInvoiceTypeEnum.java
+END

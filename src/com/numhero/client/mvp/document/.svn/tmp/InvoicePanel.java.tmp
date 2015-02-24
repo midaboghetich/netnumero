@@ -1,0 +1,251 @@
+package com.numhero.client.mvp.document;
+
+import com.google.gwt.core.client.GWT;
+import com.google.gwt.event.dom.client.ChangeEvent;
+import com.google.gwt.event.dom.client.ChangeHandler;
+import com.google.gwt.event.dom.client.ClickEvent;
+import com.google.gwt.event.dom.client.ClickHandler;
+import com.google.gwt.uibinder.client.UiBinder;
+import com.google.gwt.uibinder.client.UiField;
+import com.google.gwt.user.client.ui.Composite;
+import com.google.gwt.user.client.ui.DisclosurePanel;
+import com.google.gwt.user.client.ui.TextArea;
+import com.google.gwt.user.client.ui.TextBox;
+import com.google.gwt.user.client.ui.Widget;
+import com.google.inject.Inject;
+import com.numhero.client.model.datacargo.clientsupplier.ClientListRequest;
+import com.numhero.client.model.datacargo.clientsupplier.ClientSupplierListResponse;
+import com.numhero.client.model.datacargo.clientsupplier.SaveClientRequest;
+import com.numhero.client.model.datacargo.clientsupplier.SaveClientSupplierResponse;
+import com.numhero.client.model.pojoc.ClientSupplierC;
+import com.numhero.client.model.pojoc.InvoiceC;
+import com.numhero.client.model.pojoc.InvoiceDetailC;
+import com.numhero.client.mvp.clientsupplier.ClientSelect;
+import com.numhero.client.mvp.clientsupplier.ClientSelect.ClientSupplierSelectHandler;
+import com.numhero.client.mvp.document.InvoiceDetailsTable.InvoiceDetailsHandler;
+import com.numhero.client.service.Service;
+import com.numhero.client.widget.CustomFormatDateBox;
+import com.numhero.client.widget.NetNumeroButton;
+import com.numhero.client.widget.combobox.CurrencyEnumComboBox;
+import com.numhero.client.widget.textbox.NumberTextBox;
+import com.numhero.shared.enums.ClientSupplierEnum;
+
+import eu.maydu.gwt.validation.client.DefaultValidationProcessor;
+import eu.maydu.gwt.validation.client.ValidationProcessor;
+import eu.maydu.gwt.validation.client.actions.DisclosureTextAction;
+import eu.maydu.gwt.validation.client.actions.FocusAction;
+import eu.maydu.gwt.validation.client.actions.StyleAction;
+import eu.maydu.gwt.validation.client.i18n.ValidationMessages;
+import eu.maydu.gwt.validation.client.validators.standard.NotEmptyValidator;
+
+public class InvoicePanel extends Composite implements ClientSupplierSelectHandler, InvoiceDetailsHandler {
+	interface InvoiceUiBinder extends UiBinder<Widget, InvoicePanel> {
+	}
+
+	private static InvoiceUiBinder	uiBinder	= GWT.create(InvoiceUiBinder.class);
+
+<<<<<<< .mine
+=======
+	@UiField
+	MainTitlePanel					titlePanel;
+
+>>>>>>> .r639
+	@UiField
+	DisclosurePanel					errorsPanel;
+
+	@UiField(provided = true)
+	ClientSelect					sbClient;
+
+	@UiField
+	TextBox							tbInvoiceID;
+
+	@UiField
+	CustomFormatDateBox				dateRaised;
+
+	@UiField
+	CustomFormatDateBox				dateDue;
+
+	@UiField
+	CurrencyEnumComboBox			cbCurrency;
+
+	@UiField(provided = true)
+	InvoiceDetailsTable				invoiceDetailsTable;
+
+	@UiField
+	NetNumeroButton					btAddInvoiceDetail;
+
+	@UiField(provided = true)
+	NumberTextBox					tbDiscount;
+
+	@UiField
+	NumberTextBox					tbPrice;
+
+	@UiField
+	TextArea						taTermsConditions;
+
+	@UiField
+	TextArea						taNotes;
+
+	@UiField
+	NetNumeroButton					btSave;
+
+	@UiField
+	NetNumeroButton					btCancel;
+
+	private InvoiceC				invoiceC;
+	private ValidationProcessor		validator;
+
+	@Inject
+	public InvoicePanel(Service<ClientListRequest, ClientSupplierListResponse> clientSuppliersService, Service<SaveClientRequest, SaveClientSupplierResponse> clientSupplierSaveService,
+			InvoiceDetailsTable idt) {
+		validator = new DefaultValidationProcessor(new ValidationMessages() {
+			@Override
+			public String getPropertyName(String propertyName) {
+				if (propertyName.startsWith("Description")) {
+					return Application.getConstants().description();
+				} else {
+					return propertyName;
+				}
+			}
+
+			@Override
+			public String getCustomMessage(String key, Object... parameters) {
+				return Application.getConstants().validationMessages().get(key);
+			}
+		});
+
+		sbClient = new ClientSelect(clientSuppliersService, clientSupplierSaveService, ClientSupplierEnum.client);
+		sbClient.setHandler(this);
+
+		invoiceDetailsTable = idt;
+		invoiceDetailsTable.setHandler(this);
+		invoiceDetailsTable.setValidator(validator);
+
+		tbDiscount = new NumberTextBox() {
+			public void stopEdit() {
+				super.stopEdit();
+				totalChanged();
+			}
+		};
+
+		initWidget(uiBinder.createAndBindUi(this));
+
+		cbCurrency.addChangeHandler(new ChangeHandler() {
+			@Override
+			public void onChange(ChangeEvent event) {
+				invoiceDetailsTable.setCurrency(cbCurrency.getValue());
+				tbPrice.setCurrency(cbCurrency.getValue());
+			}
+		});
+
+<<<<<<< .mine
+    public void setInvoiceC(InvoiceC invoiceC) {
+        this.invoiceC = invoiceC;
+=======
+		btAddInvoiceDetail.addClickHandler(new ClickHandler() {
+			@Override
+			public void onClick(ClickEvent event) {
+				InvoiceDetailC idc1 = new InvoiceDetailC();
+				invoiceC.getDetails().add(idc1);
+				invoiceDetailsTable.addLine(idc1);
+				invoiceDetailsTable.setValues();
+			}
+		});
+>>>>>>> .r639
+
+		addValidators();
+	}
+
+	public void setInvoiceC(InvoiceC invoiceC) {
+		this.invoiceC = invoiceC;
+		setTitle();
+		invoiceDetailsTable.setInvoiceC(invoiceC);
+		sbClient.setClientSupplier(invoiceC.getClientSupplierID(), invoiceC.getClientSupplierName());
+		tbInvoiceID.setValue(invoiceC.getInvoiceID());
+		dateRaised.setValue(invoiceC.getDateRaised());
+		dateDue.setValue(invoiceC.getDateDue());
+		cbCurrency.setValue(invoiceC.getCurrency());
+		tbDiscount.setAmount(invoiceC.getDiscount());
+		tbPrice.setAmount(invoiceC.getPrice());
+		tbPrice.setCurrency(invoiceC.getCurrency());
+		taTermsConditions.setValue(invoiceC.getTermsConditions());
+		taNotes.setValue(invoiceC.getNotes());
+	}
+
+	public InvoiceC getInvoiceC() {
+		return invoiceC;
+	}
+
+	public NetNumeroButton getBtCancel() {
+		return btCancel;
+	}
+
+	public NetNumeroButton getBtSave() {
+		return btSave;
+	}
+
+	public ValidationProcessor getValidator() {
+		return validator;
+	}
+
+	public boolean saveValuesFromUi() {
+		boolean ret = validator.validate();
+		if (ret) {
+			invoiceC.setInvoiceID(tbInvoiceID.getText());
+			invoiceC.setDateRaised(dateRaised.getValue());
+			invoiceC.setDateDue(dateDue.getValue());
+			invoiceC.setCurrency(cbCurrency.getValue());
+			invoiceC.setDiscount(tbDiscount.getAmount());
+			invoiceC.setPrice(tbPrice.getAmount());
+			invoiceC.setTermsConditions(taTermsConditions.getText());
+			invoiceC.setNotes(taNotes.getText());
+			invoiceDetailsTable.saveValuesFromUi();
+		}
+		return ret;
+	}
+
+	@Override
+	public void clientSupplierChanged(ClientSupplierC clientSupplierC) {
+		invoiceC.setClientSupplierID(clientSupplierC.getId());
+		invoiceC.setClientSupplierName(clientSupplierC.getCompanyName());
+	}
+
+	@Override
+	public void totalChanged() {
+		tbPrice.setAmount(invoiceDetailsTable.getTotal() * (100 - tbDiscount.getAmount()) / 100);
+	}
+
+	private void setTitle() {
+		String title;
+		if (invoiceC.getId() == null) {
+			title = Application.getConstants().createAction();
+		} else {
+			title = Application.getConstants().editAction();
+		}
+		title += " " + Application.getConstants().invoiceType()[invoiceC.getInvoiceType().ordinal()];
+		titlePanel.setPanelTitle(title);
+	}
+
+	@SuppressWarnings("unchecked")
+	private void addValidators() {
+		FocusAction focusAction = new FocusAction();
+
+		validator.addValidators(Application.getConstants().client(),
+				new NotEmptyValidator(sbClient.getSbClientSupplier().getTextBox(), true, "required")
+					.addActionForFailure(focusAction)
+					.addActionForFailure(new StyleAction("validation-failed")));
+		validator.addValidators(Application.getConstants().invoiceID(),
+				new NotEmptyValidator(tbInvoiceID, true, "required")
+					.addActionForFailure(focusAction)
+					.addActionForFailure(new StyleAction("validation-failed")));
+//		validator.addValidators("dateRaised",
+//				new LocalizedDateValidator(dateRaised, DateTimeFormat.getFormat("dd/MM/yyyy"))
+//					.addActionForFailure(focusAction)
+//					.addActionForFailure(new StyleAction("validation-failed")));
+//		validator.addValidators("dateDue",
+//				new LocalizedDateValidator(dateDue, DateTimeFormat.getFormat("dd/MM/yyyy"))
+//					.addActionForFailure(focusAction)
+//					.addActionForFailure(new StyleAction("validation-failed")));
+		validator.addGlobalAction(new DisclosureTextAction(errorsPanel, "redText"));
+	}
+}

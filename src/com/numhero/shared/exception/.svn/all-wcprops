@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/numhero/!svn/ver/314/src/com/numhero/shared/exception
+END
+ClientWarningException.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/numhero/!svn/ver/314/src/com/numhero/shared/exception/ClientWarningException.java
+END
+NotAuthorizedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/numhero/!svn/ver/314/src/com/numhero/shared/exception/NotAuthorizedException.java
+END

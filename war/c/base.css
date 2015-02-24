@@ -1,0 +1,1003 @@
+/* 	NetNumero css styles
+	Copyright 2010 Net Numero Ltd. 
+-------------------------------------------------*/
+#base {
+    border: 1px solid #000;
+}
+
+h1.inh-standard, h2.inh-standard, h3.inh-standard, h1, h2, h3 {
+    color: #cccccc;
+    background-color: #000000;
+    text-decoration: line-through;
+}
+
+div.titleLevelOne {
+    font-family: "AntennaBold", sans-serif;
+    font-size: 21px;
+    color: #000000;
+}
+
+div.titleLevelTwo {
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 21px;
+    color: #0059C6;
+}
+
+div.titleLevelThree {
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 14px;
+    color: #0059C6;
+}
+
+p.inh-standard {
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 12px;
+    color: #777777;
+}
+
+ul.inh-standard {
+    list-style-type: disc;
+    list-style-image: url(../i/common/bullet.png);
+    list-style-position: inside;
+}
+
+ul.inh-standard li {
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 12px;
+    color: #777777;
+    padding-bottom: 7px;
+}
+
+/* ----------------- table.inh-standard ----------------- */
+table.inh-standard, table.inh-standard-recap {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* ----------- */
+table.inh-standard-recap th, table.inh-standard-recap td {
+    background-color: #FFFFFF;
+    text-align: left;
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 14px;
+    border-collapse: collapse;
+}
+
+table.inh-standard-recap th {
+    color: #000000;
+    border-bottom: #000000 1px solid;
+}
+
+table.inh-standard-recap td {
+    color: #666666;
+    border-bottom: #C4C4C4 1px solid;
+    padding-top: 4px;
+}
+
+table.inh-standard-recap td img {
+    padding-right: 8px;
+}
+
+table.inh-standard-recap th.right {
+    text-align: right;
+}
+
+table.inh-standard-recap td.right, table td.paid {
+    text-align: right;
+}
+
+table.inh-standard-recap td.paid {
+    color: #5C8811;
+}
+
+/* ----------- */
+table.inh-standard thead td {
+    color: #000000;
+    background-color: #ededed;
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 34px;
+    border: solid 1px #d6d6d6;
+}
+
+div.form-with-shadow {
+    box-shadow: 10px 10px 20px #000;
+    -webkit-box-shadow: 5px 5px 10px #d6d6d6;
+    -moz-box-shadow: 5px 5px 10px #d6d6d6;
+    margin: 0 10px 30px 0;
+}
+
+table.formContainer {
+    border-collapse: collapse;
+    border: solid 1px #d6d6d6;
+}
+
+table.formContainer thead td {
+    color: #000000;
+    background-color: #ededed;
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 34px;
+    border: solid 1px #d6d6d6;
+}
+
+table.inh-standard tbody td {
+    color: #666666;
+    background-color: #FFFFFF;
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 14px;
+    margin: 4px;
+    border: solid 1px #d6d6d6;
+}
+
+td.formItem, td.form-item-label {
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 5px;
+}
+
+td.form-item-label {
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 16px;
+    text-align: right;
+    color: #777777;
+    vertical-align: top;
+
+}
+
+.netnumero-textbox {
+    font-family: "CalibriBold", sans-serif;
+    font-size: 24px;
+    color: #000000
+
+}
+
+table.inh-standard input[type="text"].number, table.inh-standard div.number {
+    text-align: right;
+}
+
+table.inh-standard td.paid {
+    text-align: right;
+    color: #5C8811;
+}
+
+/*table.inh-standard input[type="text"] {
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 14px;
+    height: 22px;
+    margin: 0;
+    width: 100%;
+}
+
+ ----------------- table.invoiceDetails ----------------- 
+*/
+
+table.invoiceDetails td {
+    height: 34px;
+}
+
+/*table.invoiceDetails input[type="text"] {
+    border: 0 none;
+}
+
+*/
+
+/*table.invoiceDetails input[type="text"]:hover {
+    background-color: #f3f3f3;
+}
+
+*/
+
+table.inh-standard td.invoiceDetailsToolbar {
+    padding: 0 0 0 10;
+    margin: 0;
+    border: 0;
+}
+
+/* ----------------- table.numberTextBox ----------------- */
+table.numberTextBox tbody td {
+    color: #666666;
+    border: 0;
+    text-align: right;
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    vertical-align: middle;
+    padding: 0px;
+}
+
+/* GENERAL STUFF
+--------------------------------------------------*/
+img {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+hr {
+    border: none;
+    height: 12px;
+    background-image: url(../i/common/hr.png);
+}
+
+a.inh-standard {
+    color: #0059C6;
+    text-decoration: none;
+}
+
+a.inh-standard:hover {
+    color: #0059C6;
+    text-decoration: underline;
+}
+
+div.inh-button {
+    font-family: "AntennaMedium", sans-serif;
+    font-size:12px;
+    color: #000;
+    display: inline;
+    background-color: #e6a644;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+a.inh-button {
+    color: #000;
+    background: #e6a644 url(../i/common/btn-arrow.png) no-repeat right;
+    text-decoration: none;
+    padding: 0 27px 0 0;
+    white-space: nowrap;
+}
+
+a.inh-button:hover {
+    color: #0059C6;
+    text-decoration: underline;
+}
+
+a.inh-button:link, a.inh-button:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+div.titlePanelContainer {
+    display: table;
+    padding: 5px 0 10px 0;
+    margin: 0;
+    width: 100%;
+}
+
+div.titlePanelContainer div.panel-title {
+    display: table-cell;
+    padding: 0;
+    margin: 0;
+    width: 20%;
+}
+
+div.titlePanelContainer div.panel-menu {
+    display: table-cell;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+}
+
+div.titlePanelContainer div.panel-button {
+    display: table-cell;
+    padding: 0;
+    margin: 0;
+    width: 20%;
+    text-align: right;
+}
+
+table.buttonsPanel {
+    height: 36px;
+    margin-top: 18px;
+}
+
+table.inh-add-inline tbody td {
+    color: #666666;
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 12px;
+    margin: 0;
+    border: 0;
+    height: 16px;
+}
+
+/*td.formItem textarea, select, input[type="text"] {
+    color: #666666;
+    border-left: 2px solid #d6d6d6;
+    border-top: 2px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+    margin: 2px;
+    width: 300px;
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 14px;
+}
+
+*/
+
+div.formItemLabel {
+    cursor: pointer;
+    cursor: hand;
+    color: #105fc4;
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 16px;
+}
+
+table.noBorders tbody td {
+    border: 0;
+    padding: 0px;
+}
+
+div.invoiceDetailCell:hover {
+    background-color: #EEEEEE;
+}
+
+/* WIDGETS
+--------------------------------------------------*/
+.detail-title-panel {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.table-footer-panel {
+    padding-left: 45px;
+    background: transparent url('../i/common/arrow-table-action.png') 20px 5px no-repeat;
+}
+
+.table-footer-combo {
+    width: 200px;
+}
+
+/*==========================================*/
+
+div#bgk-wrapper {
+    width: 990px;
+	text-align: center;
+	margin: 0 auto;
+	background: #fff url('../i/common/bgkbody.png') 0 0 repeat-y; 
+}
+
+div#wrapper {
+    width: 960px;
+    margin: 0 auto 0 auto;
+    text-align: left;
+    min-height:100%;
+   position:relative;
+}
+
+div.header {
+    background: transparent url('../i/common/header/bluebar.png') 0 0 repeat-x;
+    height: 114px;
+}
+
+div#header-line {
+    background: #000000 url('../i/common/smallLogo.png') 20px 2px no-repeat;
+    height: 28px;
+    width: 100%;
+    display: table;
+    color: #ffffff;
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 14px;
+}
+
+div#header-line-left, div#header-line-right {
+    display: table-cell;
+    padding: 4px 0 0 0;
+}
+
+div#header-line-right {
+    text-align: right;
+    padding-right: 20px;
+}
+
+div#header-line ul {
+    margin: 0;
+    padding: 0 0 0 60px;
+    display: inline;
+    list-style: none;
+}
+
+div#header-line ul li {
+    display: inline;
+    padding: 0 10px 0 0;
+    color: #FFFFFF;
+}
+
+div#header-line a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+div#header-line a:hover {
+    color: #0059C6;
+}
+
+div#header-line a.logoutButton {
+    padding-left: 24px;
+    background: transparent url('../i/common/logout.png') 0 0 no-repeat;
+}
+
+/* TABS MENU
+---------------------------------------------------------------*/
+h1.inh-menu {
+    text-decoration: none;
+    background-color: transparent;
+    font-family: "AntennaLight", sans-serif;
+    font-size: 21px;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+h3.inh-menu {
+    text-decoration: none;
+    background-color: transparent;
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+div.main-menu {
+    vertical-align: text-bottom;
+    height: 86px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: "AntennaMedium", sans-serif;
+}
+
+div.main-menu ul.first-level {
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    left: 27px;
+    height: 35px;
+}
+
+div.main-menu ul.first-level li {
+    float: left;
+    margin: 0 10px 0 0;
+    position: relative;
+    padding: 0;
+}
+
+div.main-menu ul.first-level li a.inh-tab {
+    padding: 0;
+    margin: 0;
+    background: url("../i/common/tabs/disabled.png") no-repeat left top;
+    text-decoration: none;
+    display: block;
+    color: #666666;
+    height: 35px;
+}
+
+div.main-menu ul.first-level li a.inh-tab span {
+    background: url("../i/common/tabs/disabled.png") no-repeat right top;
+    display: block;
+    float: left;
+    margin-left: 3px;
+    padding: 12px 18px 0 15px;
+    height: 100%;
+    height: 35px;
+    padding-top: 12px;
+}
+
+div.main-menu ul.first-level li ul.second-level {
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 35px;
+    background-color: #404040;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+ul.moneyin-menu {
+    left: -120px;
+}
+
+ul.moneyout-menu {
+    left: -100px;
+}
+
+ul.clients-menu {
+    left: -200px;
+}
+
+ul.staff-menu {
+    left: -300px;
+}
+
+ul.time-menu {
+    left: -400px;
+}
+
+ul.reports-menu {
+    left: -500px;
+}
+
+ul.accounts-menu {
+    left: -20px;
+}
+
+div.main-menu ul.first-level li:hover ul {
+    display: block;
+    z-index: 12000;
+}
+
+div.main-menu ul.first-level li:hover a.inh-tab {
+    background: url("../i/common/tabs/hover.png") no-repeat left top;
+    color: #ffffff;
+}
+
+div.main-menu ul.first-level li:hover a.inh-tab span {
+    background: url("../i/common/tabs/hover.png") no-repeat right top;
+    color: #ffffff;
+}
+
+div.main-menu ul li.selected a.inh-tab {
+    background: url("../i/common/tabs/enabled.png") no-repeat left top;
+    color: #000000;
+}
+
+div.main-menu ul li.selected a.inh-tab span {
+    background: url("../i/common/tabs/enabled.png") no-repeat right top;
+}
+
+.second-level p {
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 12px;
+    color: #777777;
+    padding: 3px 10px 20px 0;
+    margin: 0;
+    width: 250px;
+}
+
+.submenu-desc {
+    border-right: 1px solid;
+}
+
+div.border-panel {
+    margin: 30px 10px 0 0;
+    border-right: 1px solid #888888;
+    padding: 0 0 20px 0;
+}
+
+/* PANEL MENU
+---------------------------------------------------------------*/
+div.panel-menu {
+    padding: 8px;
+}
+
+div.panel-menu ul.first-level {
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style: none;
+    bottom: 0;
+}
+
+div.panel-menu ul.first-level li.menu-title {
+    display: inline; /* float:left; */
+    margin: 0 15px 0 0;
+    position: relative;
+    padding: 5px 30px 5px 5px;
+    background-color: #d8d8d8;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 14px;
+    color: #545454;
+}
+
+div.panel-menu ul.first-level li ul.second-level {
+    list-style: none;
+    display: none;
+    position: absolute;
+    padding: 20px 10px 0 10px;
+    margin: 0;
+    top: 23px;
+    background-color: #404040;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+div.panel-menu ul.first-level li:hover ul {
+    display: block;
+    z-index: 120;
+    background-color: #404040;
+}
+
+div.panel-menu ul.first-level li:hover {
+    background-color: #404040;
+    color: #ffffff;
+}
+
+/* COMMON SELECTORS FOR MENU
+---------------------------------------------------------------*/
+.menu-sub {
+    display: table;
+    padding-bottom: 20px;
+}
+
+.menu-sub div.cell {
+    display: table-cell;
+}
+
+dl.inh-menu {
+    padding: 0 20px 20px 0;
+    margin: 0;
+}
+
+dl.inh-menu dt {
+    padding: 3px 20px 3px 20px;
+    margin: 0;
+    border-bottom: 1px solid #888888;
+    display: block;
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 12px;
+    background: transparent url(../i/common/bullet_menu.png) no-repeat 0 8px;
+}
+
+dl.inh-menu dt.inh-menu-end {
+    border-bottom: none;
+}
+
+dt a {
+    color: #888888;
+    white-space: nowrap;
+}
+
+dt a:hover {
+    color: #0059C6;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+a.inh-menu {
+    color: #C4C4C4;
+    text-decoration: none;
+}
+
+a.inh-menu:link, a.inh-menu:visited {
+    color: #C4C4C4;
+    text-decoration: none;
+}
+
+a.inh-menu:hover {
+    color: #0059C6;
+    text-decoration: none;
+}
+
+ul.inh-menu {
+    list-style-type: disc;
+    list-style-image: url(../i/common/bullet_menu.png);
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: static;
+}
+
+ul.inh-menu li {
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 12px;
+    color: #777777;
+    float: none;
+    margin: 0;
+    position: static;
+    padding: 0;
+}
+
+/* STARTING CONTENT
+------------------------------------------------------------------*/
+.mainContentPanel {
+    position: fixed;
+    overflow-x: visible;
+    overflow-y: visible;
+    
+    
+}
+
+div.content, div.mainContentPanel {
+    margin: 27px 27px 0 27px;
+    border: 50px red;
+}
+
+#content div.inh-split-view {
+}
+
+#content div.inh-left-view {
+    float: left;
+    width: 63%;
+    padding: 0 10px 0 0;
+    border-right: 1px solid #C4C4C4;
+}
+
+#content div.inh-right-view {
+    float: right;
+    width: 32%;
+    padding: 10px;
+}
+
+/* STARTING RIGHTBAR
+------------------------------------------------------------------*/
+.rightBar {
+    border-left: #C4C4C4 1px solid;
+    background-color: #cccccc;
+}
+
+/* RECAP PAGES
+------------------------------------------------------------------*/
+div.sub-container {
+    display: table;
+    padding: 20px 0 20px 0;
+    width: 100%;
+}
+
+div.left-panel {
+    display: table-cell;
+    border-right: 1px solid;
+    width: 70%;
+    padding: 0 20px 0 0;
+}
+
+div.right-panel {
+    display: table-cell;
+    width: 30%;
+    padding: 0 0 0 20px;
+}
+
+div.sub-container hr {
+    margin: 40px 0 40px 0;
+}
+
+/* STARTING FOOTER
+------------------------------------------------------------------*/
+.footer {
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 14px;
+    clear: both;
+    padding: 15px 0 0 0;
+    height:50px;
+    
+}
+
+.footer div#footer-content {
+    border-top: 1px solid #C4C4C4;
+    padding: 10px 10px 30px 10px;
+}
+
+.footer .logo {
+    width: 110px;
+    height: 47px;
+    background: url(../i/logos/footer-logo.gif) no-repeat;
+    float: left;
+    overflow: hidden;
+    text-indent: -9999px;
+    margin: -13px 15px 0 0;
+}
+
+.footer .logo a {
+    width: 110px;
+    height: 47px;
+    display: block;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.footer .link-bar ul {
+    list-style: none;
+    float: right;
+}
+
+.footer .link-bar ul li {
+    display: inline;
+    padding: 0 5px 0 5px;
+}
+
+.footer .link-bar ul li.bar {
+    border-right: 2px solid #C4C4C4;
+}
+
+/* MAIN TITLE BAR
+-------------------------------------------------*/
+.button-container {
+    padding: 10px 0 10px 10px;
+    text-align: right;
+}
+
+.button-container td {
+    text-align: right;
+}
+
+.home-buttons-container {
+    padding: 5px 0 5px 0;
+}
+
+.home-buttons-container td {
+    padding: 0 5px 0 5px;
+    width: 210px;
+}
+
+.home-buttons-container div.inh-button {
+    display: block;
+}
+
+/* Styles for specific pages
+-------------------------------------------------*/
+/* DASHBOARD
+-------------------------------------------------*/
+#dashboardTopLayout {
+    display: table;
+}
+
+#dashboardOverviewDesc, #dashboardOverviewTable, #dashboardOverviewActions {
+    display: table-cell;
+    padding: 0 20px;
+}
+
+#dashboardOverviewDesc {
+    width: 30%;
+}
+
+#dashboardOverviewTable {
+    width: 40%;
+}
+
+#dashboardOverviewActions {
+    border-left: 1px solid #ccc;
+}
+
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+*
+
+/
+/* Calendar
+-------------------------------------------------*/
+
+.CalendarWidget {
+    border: 1px solid #ACA899;
+}
+
+.CalendarWidget .navbar .header {
+    width: 100%;
+    background: #C3D9FF;
+    vertical-align: middle;
+    border-bottom: 1px solid #ACA899;
+    height: auto;
+}
+
+.CalendarWidget .navbar .gwt-Button {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.CalendarWidget .table {
+    font: 10pt sans-serif;
+    text-align: center;
+}
+
+.CalendarWidget .weekheader {
+    background-color: #ACA899;
+}
+
+.CalendarWidget .weekheader .days {
+    width: 3em;
+}
+
+.CalendarWidget .cell {
+    cursor: pointer;
+}
+
+.CalendarWidget .cell .gwt-HTML {
+    border: 1px solid #ACA899;
+}
+
+.CalendarWidget .cell .gwt-HTML span {
+    width: 100%;
+    height: 100%;
+    line-height: 2em;
+}
+
+.CalendarWidget .today .gwt-HTML {
+    background-color: #C3D9FF;
+}
+
+.CalendarWidget .day .gwt-HTML {
+    border: 1px solid #C3D9FF;
+}
+
+/* validation
+-------------------------------------------------*/
+.validation-advice {
+    text-align: center;
+    border: 1px solid #ebb9bc;
+    background-color: #ffd5d6;
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 14px;
+    color: #000000;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 10 0 10 0;
+}
+
+.validation-advice a.header {
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+}
+
+input.validation-failed, textarea.validation-failed {
+    background-color: #ffd5d6;
+}
+
+.error {
+    font-family: "CalibriRegular", sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+

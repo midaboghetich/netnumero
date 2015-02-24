@@ -1,0 +1,33 @@
+<<<<<<< .mine
+<!-- Indices written at Wed, 23 Jun 2010 21:31:25 UTC -->
+=======
+<!-- Indices written at Wed, 23 Jun 2010 20:05:04 UTC -->
+>>>>>>> .r699
+
+<datastore-indexes>
+
+<<<<<<< .mine
+    <!-- Used 5 times in query history -->
+    <datastore-index kind="ClientSupplierContact" ancestor="true" source="auto">
+        <property name="contacts_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>
+=======
+    <!-- Used 11 times in query history -->
+    <datastore-index kind="ProjectStaffDetail" ancestor="true" source="auto">
+        <property name="projectStaffDetails_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 11 times in query history -->
+    <datastore-index kind="ProjectTaskDetail" ancestor="true" source="auto">
+        <property name="projectTaskDetails_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="ClientSupplierContact" ancestor="true" source="auto">
+        <property name="contacts_INTEGER_IDX" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>
+>>>>>>> .r699

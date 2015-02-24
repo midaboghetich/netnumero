@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/numhero/!svn/ver/704/test/com/numhero/server/model/pojo
+END
+InvoiceDetailTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/numhero/!svn/ver/657/test/com/numhero/server/model/pojo/InvoiceDetailTest.java
+END
+XBusinessAccountUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/numhero/!svn/ver/506/test/com/numhero/server/model/pojo/XBusinessAccountUser.java
+END
+ProductTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/numhero/!svn/ver/595/test/com/numhero/server/model/pojo/ProductTest.java
+END
+ClientSupplierTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/numhero/!svn/ver/689/test/com/numhero/server/model/pojo/ClientSupplierTest.java
+END
+BankAccountTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/numhero/!svn/ver/325/test/com/numhero/server/model/pojo/BankAccountTest.java
+END
+BusinessAccountTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/numhero/!svn/ver/325/test/com/numhero/server/model/pojo/BusinessAccountTest.java
+END
+PojoTestUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/numhero/!svn/ver/704/test/com/numhero/server/model/pojo/PojoTestUtils.java
+END
+TaxInfoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/numhero/!svn/ver/657/test/com/numhero/server/model/pojo/TaxInfoTest.java
+END
+VersionableTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/numhero/!svn/ver/325/test/com/numhero/server/model/pojo/VersionableTest.java
+END
+InvoiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/numhero/!svn/ver/657/test/com/numhero/server/model/pojo/InvoiceTest.java
+END
+PersistableTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/numhero/!svn/ver/343/test/com/numhero/server/model/pojo/PersistableTest.java
+END
+UserTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/numhero/!svn/ver/704/test/com/numhero/server/model/pojo/UserTest.java
+END

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/numhero/!svn/ver/746/lib/project-lib
+END
+aopalliance.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/numhero/!svn/ver/93/lib/project-lib/aopalliance.jar
+END
+lambdaj-2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/numhero/!svn/ver/93/lib/project-lib/lambdaj-2.1.jar
+END
+gin-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/numhero/!svn/ver/98/lib/project-lib/gin-1.0.jar
+END
+guice-2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/numhero/!svn/ver/93/lib/project-lib/guice-2.0.jar
+END
+hamcrest-all-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/numhero/!svn/ver/97/lib/project-lib/hamcrest-all-1.1.jar
+END
+commons-logging-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/numhero/!svn/ver/95/lib/project-lib/commons-logging-1.1.1.jar
+END
+guice-servlet-2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/numhero/!svn/ver/96/lib/project-lib/guice-servlet-2.0.jar
+END
+iText-5.0.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/numhero/!svn/ver/682/lib/project-lib/iText-5.0.2.jar
+END
+lucene-core-3.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/numhero/!svn/ver/270/lib/project-lib/lucene-core-3.0.1.jar
+END
+cglib-2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/numhero/!svn/ver/99/lib/project-lib/cglib-2.2.jar
+END
+asm-3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/numhero/!svn/ver/94/lib/project-lib/asm-3.2.jar
+END
+mockito-all-1.8.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/numhero/!svn/ver/324/lib/project-lib/mockito-all-1.8.4.jar
+END
+gwt-vl-3.0-alpha-without-hibernate.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/numhero/!svn/ver/637/lib/project-lib/gwt-vl-3.0-alpha-without-hibernate.jar
+END
+commons-beanutils-1.8.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/numhero/!svn/ver/99/lib/project-lib/commons-beanutils-1.8.2.jar
+END

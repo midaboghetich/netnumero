@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/numhero/!svn/ver/461/lib/appengine-java-sdk-1.3.4/lib/impl
+END
+appengine-api-stubs.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/numhero/!svn/ver/461/lib/appengine-java-sdk-1.3.4/lib/impl/appengine-api-stubs.jar
+END
+appengine-api-labs.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/numhero/!svn/ver/461/lib/appengine-java-sdk-1.3.4/lib/impl/appengine-api-labs.jar
+END
+appengine-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/numhero/!svn/ver/461/lib/appengine-java-sdk-1.3.4/lib/impl/appengine-api.jar
+END
+appengine-local-runtime.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/numhero/!svn/ver/461/lib/appengine-java-sdk-1.3.4/lib/impl/appengine-local-runtime.jar
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/service
+END
+ServicePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/service/ServicePanel.java
+END
+ServicePresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/numhero/!svn/ver/760/src/com/numhero/client/mvp/service/ServicePresenter.java
+END
+ServicePanel.ui.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/numhero/!svn/ver/754/src/com/numhero/client/mvp/service/ServicePanel.ui.xml
+END
+ServiceView.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/numhero/!svn/ver/737/src/com/numhero/client/mvp/service/ServiceView.java
+END
+ServicesPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/numhero/!svn/ver/727/src/com/numhero/client/mvp/service/ServicesPresenter.java
+END
+ServicesTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/numhero/!svn/ver/737/src/com/numhero/client/mvp/service/ServicesTable.java
+END

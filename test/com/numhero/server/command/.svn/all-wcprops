@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/numhero/!svn/ver/708/test/com/numhero/server/command
+END
+CommandChangeStatusToPaiedDocumentsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/numhero/!svn/ver/706/test/com/numhero/server/command/CommandChangeStatusToPaiedDocumentsTest.java
+END
+CommandArchiveDocumentsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/numhero/!svn/ver/708/test/com/numhero/server/command/CommandArchiveDocumentsTest.java
+END
+CommandSaveBusinessAccountTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/numhero/!svn/ver/707/test/com/numhero/server/command/CommandSaveBusinessAccountTest.java
+END
+CommandSaveBankAccountTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/numhero/!svn/ver/515/test/com/numhero/server/command/CommandSaveBankAccountTest.java
+END
+CommandGetBusinessAccountTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/numhero/!svn/ver/695/test/com/numhero/server/command/CommandGetBusinessAccountTest.java
+END
+CommandGetBankAccountTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/numhero/!svn/ver/657/test/com/numhero/server/command/CommandGetBankAccountTest.java
+END
+CommandDeleteClientsSuppliersTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/numhero/!svn/ver/705/test/com/numhero/server/command/CommandDeleteClientsSuppliersTest.java
+END
